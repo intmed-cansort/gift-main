@@ -1,0 +1,3611 @@
+{
+  "Items": {
+    "cmdset[1]#coleq[i2scale_std_fu]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_b]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.11987283217622821
+    },
+    "cmdset[1]#coleq[i2scale_std_fu]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_df]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 257.0
+    },
+    "cmdset[1]#coleq[i2scale_std_fu]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_lb]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": -0.04857903107822084
+    },
+    "cmdset[1]#coleq[i2scale_std_fu]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_p]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.16231931224500337
+    },
+    "cmdset[1]#coleq[i2scale_std_fu]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_se]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.08554166959375217
+    },
+    "cmdset[1]#coleq[i2scale_std_fu]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_ub]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.2883246954306773
+    },
+    "cmdset[1]#coleq[i2scale_std_fu]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_z]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 1.4013384675038367
+    },
+    "cmdset[1]#coleq[i2scale_std_fu]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_z_abs]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 1.4013384675038367
+    },
+    "cmdset[1]#coleq[i2scale_std_fu]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_b]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": -0.04036466165169648
+    },
+    "cmdset[1]#coleq[i2scale_std_fu]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_df]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 257.0
+    },
+    "cmdset[1]#coleq[i2scale_std_fu]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_lb]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": -0.21854543218032574
+    },
+    "cmdset[1]#coleq[i2scale_std_fu]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_p]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.6558959116849221
+    },
+    "cmdset[1]#coleq[i2scale_std_fu]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_se]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.09048211344208816
+    },
+    "cmdset[1]#coleq[i2scale_std_fu]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_ub]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.1378161088769328
+    },
+    "cmdset[1]#coleq[i2scale_std_fu]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_z]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": -0.44610652996662514
+    },
+    "cmdset[1]#coleq[i2scale_std_fu]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_z_abs]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.44610652996662514
+    },
+    "cmdset[1]#coleq[invite]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_b]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.19615779316312806
+    },
+    "cmdset[1]#coleq[invite]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_df]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "s": "."
+    },
+    "cmdset[1]#coleq[invite]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_lb]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.1588179747408505
+    },
+    "cmdset[1]#coleq[invite]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_p]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 7.321889564145432e-25
+    },
+    "cmdset[1]#coleq[invite]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_se]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.019051277838169123
+    },
+    "cmdset[1]#coleq[invite]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_ub]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.23349761158540563
+    },
+    "cmdset[1]#coleq[invite]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_z]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 10.296306359572746
+    },
+    "cmdset[1]#coleq[invite]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_z_abs]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 10.296306359572746
+    },
+    "cmdset[1]#coleq[invite]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_b]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.2325745395678918
+    },
+    "cmdset[1]#coleq[invite]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_df]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "s": "."
+    },
+    "cmdset[1]#coleq[invite]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_lb]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.1910147937595884
+    },
+    "cmdset[1]#coleq[invite]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_p]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 5.431284667052516e-28
+    },
+    "cmdset[1]#coleq[invite]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_se]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.021204341577764383
+    },
+    "cmdset[1]#coleq[invite]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_ub]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.2741342853761952
+    },
+    "cmdset[1]#coleq[invite]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_z]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 10.968250945918436
+    },
+    "cmdset[1]#coleq[invite]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_z_abs]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 10.968250945918436
+    },
+    "cmdset[1]#coleq[test]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_b]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.032504407953298786
+    },
+    "cmdset[1]#coleq[test]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_df]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "s": "."
+    },
+    "cmdset[1]#coleq[test]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_lb]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.020821393476117264
+    },
+    "cmdset[1]#coleq[test]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_p]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 4.95272842532559e-08
+    },
+    "cmdset[1]#coleq[test]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_se]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.0059608312037035625
+    },
+    "cmdset[1]#coleq[test]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_ub]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.04418742243048031
+    },
+    "cmdset[1]#coleq[test]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_z]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 5.45299922821221
+    },
+    "cmdset[1]#coleq[test]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_r_z_abs]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 5.45299922821221
+    },
+    "cmdset[1]#coleq[test]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_b]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.06813021451922599
+    },
+    "cmdset[1]#coleq[test]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_df]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "s": "."
+    },
+    "cmdset[1]#coleq[test]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_lb]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.047825554920117766
+    },
+    "cmdset[1]#coleq[test]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_p]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 4.817829122051567e-11
+    },
+    "cmdset[1]#coleq[test]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_se]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.010359710565739366
+    },
+    "cmdset[1]#coleq[test]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_ub]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 0.08843487411833421
+    },
+    "cmdset[1]#coleq[test]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_z]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 6.576459263692139
+    },
+    "cmdset[1]#coleq[test]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_z_abs]#result_type[matrix]#rowheader[`\"Group means cost\"']": {
+      "d": 6.576459263692139
+    },
+    "cmdset[1]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 4946.0
+    },
+    "cmdset[1]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[1]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[error]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[1]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[b]": {
+      "d": 0.032504407953298786
+    },
+    "cmdset[1]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[crit]": {
+      "d": 1.9599639845400538
+    },
+    "cmdset[1]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[df]": {
+      "s": "."
+    },
+    "cmdset[1]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[eform]": {
+      "d": 0.0
+    },
+    "cmdset[1]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[ll]": {
+      "d": 0.020821393476117264
+    },
+    "cmdset[1]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[pvalue]": {
+      "d": 4.95272842532559e-08
+    },
+    "cmdset[1]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[se]": {
+      "d": 0.0059608312037035625
+    },
+    "cmdset[1]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[ul]": {
+      "d": 0.04418742243048031
+    },
+    "cmdset[1]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[z]": {
+      "d": 5.45299922821221
+    },
+    "cmdset[1]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[1]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 4946.0
+    },
+    "cmdset[1]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[1]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[error]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[1]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[b]": {
+      "d": 0.06813021451922599
+    },
+    "cmdset[1]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[crit]": {
+      "d": 1.9599639845400538
+    },
+    "cmdset[1]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[df]": {
+      "s": "."
+    },
+    "cmdset[1]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[eform]": {
+      "d": 0.0
+    },
+    "cmdset[1]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[ll]": {
+      "d": 0.047825554920117766
+    },
+    "cmdset[1]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[pvalue]": {
+      "d": 4.817829122051567e-11
+    },
+    "cmdset[1]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[se]": {
+      "d": 0.010359710565739366
+    },
+    "cmdset[1]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[ul]": {
+      "d": 0.08843487411833421
+    },
+    "cmdset[1]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[z]": {
+      "d": 6.576459263692139
+    },
+    "cmdset[1]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[1]#collection[primary]#colname[c_relatives]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[1]#collection[primary]#colname[female]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[1]#collection[primary]#colname[i2scale_std]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[N]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 4946.0
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[atstats1]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "asobserved asobserved value value asobserved asobserved asobserved"
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[cmd]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "margins"
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[cmdline]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "margins costarm,at(navarm=0)"
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[emptycells]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "strict"
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[est_cmd]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "meglm"
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[est_cmdline]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "melogit test i.costarm i.navarm c_relatives i2scale_std         female || access_code: , nolog"
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[expression]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "predict()"
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[k_at]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 1.0
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[k_by]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 1.0
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[k_margins]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 1.0
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[k_predict]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 1.0
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[level]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 95.0
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[margins]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "i(0 1)b0.costarm"
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[mcmethod]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "noadjust"
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[model_vce]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "oim"
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[predict1_label]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "Marginal predicted mean"
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[title]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "Predictive margins"
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[vce]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "delta"
+    },
+    "cmdset[1]#collection[primary]#program_class[rclass]#result[vcetype]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "Delta-method"
+    },
+    "cmdset[1]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 4946.0
+    },
+    "cmdset[1]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[1]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[error]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[1]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[b]": {
+      "d": 0.19615779316312806
+    },
+    "cmdset[1]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[crit]": {
+      "d": 1.9599639845400538
+    },
+    "cmdset[1]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[df]": {
+      "s": "."
+    },
+    "cmdset[1]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[eform]": {
+      "d": 0.0
+    },
+    "cmdset[1]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[ll]": {
+      "d": 0.1588179747408505
+    },
+    "cmdset[1]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[pvalue]": {
+      "d": 7.321889564145432e-25
+    },
+    "cmdset[1]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[se]": {
+      "d": 0.019051277838169123
+    },
+    "cmdset[1]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[ul]": {
+      "d": 0.23349761158540563
+    },
+    "cmdset[1]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[z]": {
+      "d": 10.296306359572746
+    },
+    "cmdset[1]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[1]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 4946.0
+    },
+    "cmdset[1]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[1]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[error]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[1]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[b]": {
+      "d": 0.2325745395678918
+    },
+    "cmdset[1]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[crit]": {
+      "d": 1.9599639845400538
+    },
+    "cmdset[1]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[df]": {
+      "s": "."
+    },
+    "cmdset[1]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[eform]": {
+      "d": 0.0
+    },
+    "cmdset[1]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[ll]": {
+      "d": 0.1910147937595884
+    },
+    "cmdset[1]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[pvalue]": {
+      "d": 5.431284667052516e-28
+    },
+    "cmdset[1]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[se]": {
+      "d": 0.021204341577764383
+    },
+    "cmdset[1]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[ul]": {
+      "d": 0.2741342853761952
+    },
+    "cmdset[1]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[z]": {
+      "d": 10.968250945918436
+    },
+    "cmdset[1]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[1]#collection[sec1]#colname[c_relatives]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[1]#collection[sec1]#colname[female]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[1]#collection[sec1]#colname[i2scale_std]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[N]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 4946.0
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[atstats1]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "asobserved asobserved value value asobserved asobserved asobserved"
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[cmd]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "margins"
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[cmdline]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "margins costarm,at(navarm=0)"
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[emptycells]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "strict"
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[est_cmd]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "meglm"
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[est_cmdline]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "melogit invite i.costarm i.navarm c_relatives i2scale_std         female || access_code: , nolog"
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[expression]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "predict()"
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[k_at]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 1.0
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[k_by]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 1.0
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[k_margins]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 1.0
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[k_predict]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 1.0
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[level]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 95.0
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[margins]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "i(0 1)b0.costarm"
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[mcmethod]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "noadjust"
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[model_vce]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "oim"
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[predict1_label]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "Marginal predicted mean"
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[title]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "Predictive margins"
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[vce]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "delta"
+    },
+    "cmdset[1]#collection[sec1]#program_class[rclass]#result[vcetype]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "Delta-method"
+    },
+    "cmdset[1]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 262.0
+    },
+    "cmdset[1]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[1]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[error]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[1]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[b]": {
+      "d": 0.11987283217622821
+    },
+    "cmdset[1]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[crit]": {
+      "d": 1.9692374962336776
+    },
+    "cmdset[1]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[df]": {
+      "d": 257.0
+    },
+    "cmdset[1]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[eform]": {
+      "d": 0.0
+    },
+    "cmdset[1]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[ll]": {
+      "d": -0.04857903107822084
+    },
+    "cmdset[1]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[pvalue]": {
+      "d": 0.16231931224500337
+    },
+    "cmdset[1]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[se]": {
+      "d": 0.08554166959375217
+    },
+    "cmdset[1]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[t]": {
+      "d": 1.4013384675038367
+    },
+    "cmdset[1]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[ul]": {
+      "d": 0.2883246954306773
+    },
+    "cmdset[1]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[1]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 262.0
+    },
+    "cmdset[1]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[1]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[error]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[1]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[b]": {
+      "d": -0.04036466165169648
+    },
+    "cmdset[1]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[crit]": {
+      "d": 1.9692374962336776
+    },
+    "cmdset[1]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[df]": {
+      "d": 257.0
+    },
+    "cmdset[1]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[eform]": {
+      "d": 0.0
+    },
+    "cmdset[1]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[ll]": {
+      "d": -0.21854543218032574
+    },
+    "cmdset[1]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[pvalue]": {
+      "d": 0.6558959116849221
+    },
+    "cmdset[1]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[se]": {
+      "d": 0.09048211344208816
+    },
+    "cmdset[1]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[t]": {
+      "d": -0.44610652996662514
+    },
+    "cmdset[1]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[ul]": {
+      "d": 0.1378161088769328
+    },
+    "cmdset[1]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[1]#collection[sec2]#colname[c1]#program_class[rclass]#result[chainrule]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[1]#collection[sec2]#colname[c2]#program_class[rclass]#result[chainrule]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 7.0
+    },
+    "cmdset[1]#collection[sec2]#colname[c3]#program_class[rclass]#result[chainrule]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "d": 7.0
+    },
+    "cmdset[1]#collection[sec2]#colname[c_relatives]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[1]#collection[sec2]#colname[i2scale_std]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means cost\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[N]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 262.0
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[atstats1]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "asobserved asobserved value value asobserved asobserved"
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[cmd]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "margins"
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[cmdline]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "margins costarm,at(navarm=0)"
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[df_r]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 257.0
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[emptycells]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "strict"
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[est_cmd]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "regress"
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[est_cmdline]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "regress i2scale_std_fu i.costarm i.navarm c_relatives i2scale_std          if id==1"
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[expression]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "predict()"
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[k_at]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 1.0
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[k_by]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 1.0
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[k_margins]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 1.0
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[k_predict]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 1.0
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[level]#result_type[scalar]#rowheader[`\"Group means cost\"']": {
+      "d": 95.0
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[margins]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "i(0 1)b0.costarm"
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[mcmethod]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "noadjust"
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[model_vce]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "ols"
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[predict1_label]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "Linear prediction"
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[title]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "Predictive margins"
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[vce]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "delta"
+    },
+    "cmdset[1]#collection[sec2]#program_class[rclass]#result[vcetype]#result_type[macro]#rowheader[`\"Group means cost\"']": {
+      "s": "Delta-method"
+    },
+    "cmdset[2]#coleq[i2scale_std_fu]#collection[sec2]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_b]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": -0.16023749382792468
+    },
+    "cmdset[2]#coleq[i2scale_std_fu]#collection[sec2]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_df]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": 257.0
+    },
+    "cmdset[2]#coleq[i2scale_std_fu]#collection[sec2]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_lb]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": -0.3605498918647256
+    },
+    "cmdset[2]#coleq[i2scale_std_fu]#collection[sec2]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_p]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.11642479090815873
+    },
+    "cmdset[2]#coleq[i2scale_std_fu]#collection[sec2]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_se]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.1017207921441239
+    },
+    "cmdset[2]#coleq[i2scale_std_fu]#collection[sec2]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_ub]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.040074904208876216
+    },
+    "cmdset[2]#coleq[i2scale_std_fu]#collection[sec2]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_z]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": -1.5752678528190278
+    },
+    "cmdset[2]#coleq[i2scale_std_fu]#collection[sec2]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_z_abs]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.5752678528190278
+    },
+    "cmdset[2]#coleq[invite]#collection[sec1]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_b]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.03641674640476375
+    },
+    "cmdset[2]#coleq[invite]#collection[sec1]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_df]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "s": "."
+    },
+    "cmdset[2]#coleq[invite]#collection[sec1]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_lb]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": -0.008365481833112677
+    },
+    "cmdset[2]#coleq[invite]#collection[sec1]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_p]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.11097285276535138
+    },
+    "cmdset[2]#coleq[invite]#collection[sec1]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_se]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.022848495478035788
+    },
+    "cmdset[2]#coleq[invite]#collection[sec1]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_ub]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.08119897464264017
+    },
+    "cmdset[2]#coleq[invite]#collection[sec1]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_z]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.5938356396276112
+    },
+    "cmdset[2]#coleq[invite]#collection[sec1]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_z_abs]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.5938356396276112
+    },
+    "cmdset[2]#coleq[test]#collection[primary]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_b]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.035625806565927204
+    },
+    "cmdset[2]#coleq[test]#collection[primary]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_df]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "s": "."
+    },
+    "cmdset[2]#coleq[test]#collection[primary]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_lb]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.016378409617341553
+    },
+    "cmdset[2]#coleq[test]#collection[primary]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_p]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.0002858700587639395
+    },
+    "cmdset[2]#coleq[test]#collection[primary]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_se]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.009820280933938922
+    },
+    "cmdset[2]#coleq[test]#collection[primary]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_ub]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.05487320351451286
+    },
+    "cmdset[2]#coleq[test]#collection[primary]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_z]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": 3.627778757612148
+    },
+    "cmdset[2]#coleq[test]#collection[primary]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_r_z_abs]#result_type[matrix]#rowheader[`\"Difference (cost)\"']": {
+      "d": 3.627778757612148
+    },
+    "cmdset[2]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[L]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1vs0.costarm]": {
+      "d": -1.0
+    },
+    "cmdset[2]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 4946.0
+    },
+    "cmdset[2]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[2]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[L]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1vs0.costarm]": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 4946.0
+    },
+    "cmdset[2]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[2]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[primary]#colname[c1]#program_class[rclass]#result[atdims]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[primary]#colname[c1]#program_class[rclass]#result[chi2]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 13.160778714181937
+    },
+    "cmdset[2]#collection[primary]#colname[c1]#program_class[rclass]#result[df]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[primary]#colname[c1]#program_class[rclass]#result[error]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[primary]#colname[c1]#program_class[rclass]#result[p]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 0.00028587005876393976
+    },
+    "cmdset[2]#collection[primary]#colname[c_relatives]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[2]#collection[primary]#colname[female]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[2]#collection[primary]#colname[i2scale_std]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[2]#collection[primary]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[b]": {
+      "d": 0.035625806565927204
+    },
+    "cmdset[2]#collection[primary]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[crit]": {
+      "d": 1.9599639845400538
+    },
+    "cmdset[2]#collection[primary]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[df]": {
+      "s": "."
+    },
+    "cmdset[2]#collection[primary]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[eform]": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[primary]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[ll]": {
+      "d": 0.016378409617341553
+    },
+    "cmdset[2]#collection[primary]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[pvalue]": {
+      "d": 0.0002858700587639395
+    },
+    "cmdset[2]#collection[primary]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[se]": {
+      "d": 0.009820280933938922
+    },
+    "cmdset[2]#collection[primary]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[ul]": {
+      "d": 0.05487320351451286
+    },
+    "cmdset[2]#collection[primary]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[z]": {
+      "d": 3.627778757612148
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[N]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 4946.0
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[atopt1]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "navarm=0"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[atspec1]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "asobserved asobserved value value asobserved asobserved asobserved"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[atstats1]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "asobserved asobserved value value asobserved asobserved asobserved"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[cmd2]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "margins"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[cmd]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "contrast"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[cmdline]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "margins r.costarm,at(navarm=0)"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[deriv1]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[emptycells]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "strict"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[est_cmd]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "meglm"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[est_cmdline]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "melogit test i.costarm i.navarm c_relatives i2scale_std         female || access_code: , nolog"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[est_depvar]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "test"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[expression]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "predict()"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[is_xb1]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[j1_1]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[j2_1]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[k_at]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[k_by]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[k_margins]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[k_mlist]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[k_predict]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[k_terms]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[level]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 95.0
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[margins]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "i(0 1)b0.costarm"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[mcmethod]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "noadjust"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[mlist1]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "costarm"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[model_vce]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "oim"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[numeric]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[outcomeIsEq1]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[predict1_label]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "Marginal predicted mean"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[predict_label]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "Marginal predicted mean"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[properties]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "b V"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[title]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "Contrasts of predictive margins"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[vce]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "delta"
+    },
+    "cmdset[2]#collection[primary]#program_class[rclass]#result[vcetype]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "Delta-method"
+    },
+    "cmdset[2]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[L]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1vs0.costarm]": {
+      "d": -1.0
+    },
+    "cmdset[2]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 4946.0
+    },
+    "cmdset[2]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[2]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[L]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1vs0.costarm]": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 4946.0
+    },
+    "cmdset[2]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[2]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[sec1]#colname[c1]#program_class[rclass]#result[atdims]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec1]#colname[c1]#program_class[rclass]#result[chi2]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 2.540312046147156
+    },
+    "cmdset[2]#collection[sec1]#colname[c1]#program_class[rclass]#result[df]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec1]#colname[c1]#program_class[rclass]#result[error]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[sec1]#colname[c1]#program_class[rclass]#result[p]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 0.11097285276535145
+    },
+    "cmdset[2]#collection[sec1]#colname[c_relatives]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[2]#collection[sec1]#colname[female]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[2]#collection[sec1]#colname[i2scale_std]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[2]#collection[sec1]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[b]": {
+      "d": 0.03641674640476375
+    },
+    "cmdset[2]#collection[sec1]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[crit]": {
+      "d": 1.9599639845400538
+    },
+    "cmdset[2]#collection[sec1]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[df]": {
+      "s": "."
+    },
+    "cmdset[2]#collection[sec1]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[eform]": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[sec1]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[ll]": {
+      "d": -0.008365481833112677
+    },
+    "cmdset[2]#collection[sec1]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[pvalue]": {
+      "d": 0.11097285276535138
+    },
+    "cmdset[2]#collection[sec1]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[se]": {
+      "d": 0.022848495478035788
+    },
+    "cmdset[2]#collection[sec1]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[ul]": {
+      "d": 0.08119897464264017
+    },
+    "cmdset[2]#collection[sec1]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[z]": {
+      "d": 1.5938356396276112
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[N]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 4946.0
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[atopt1]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "navarm=0"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[atspec1]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "asobserved asobserved value value asobserved asobserved asobserved"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[atstats1]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "asobserved asobserved value value asobserved asobserved asobserved"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[cmd2]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "margins"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[cmd]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "contrast"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[cmdline]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "margins r.costarm,at(navarm=0)"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[deriv1]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[emptycells]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "strict"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[est_cmd]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "meglm"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[est_cmdline]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "melogit invite i.costarm i.navarm c_relatives i2scale_std         female || access_code: , nolog"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[est_depvar]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "invite"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[expression]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "predict()"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[is_xb1]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[j1_1]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[j2_1]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[k_at]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[k_by]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[k_margins]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[k_mlist]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[k_predict]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[k_terms]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[level]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 95.0
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[margins]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "i(0 1)b0.costarm"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[mcmethod]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "noadjust"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[mlist1]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "costarm"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[model_vce]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "oim"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[numeric]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[outcomeIsEq1]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[predict1_label]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "Marginal predicted mean"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[predict_label]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "Marginal predicted mean"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[properties]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "b V"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[title]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "Contrasts of predictive margins"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[vce]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "delta"
+    },
+    "cmdset[2]#collection[sec1]#program_class[rclass]#result[vcetype]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "Delta-method"
+    },
+    "cmdset[2]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[L]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1vs0.costarm]": {
+      "d": -1.0
+    },
+    "cmdset[2]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 262.0
+    },
+    "cmdset[2]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[2]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[L]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1vs0.costarm]": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 262.0
+    },
+    "cmdset[2]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[2]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[sec2]#colname[c1]#program_class[rclass]#result[F]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 2.4814688081250704
+    },
+    "cmdset[2]#collection[sec2]#colname[c1]#program_class[rclass]#result[atdims]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec2]#colname[c1]#program_class[rclass]#result[chainrule]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec2]#colname[c1]#program_class[rclass]#result[df2]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 257.0
+    },
+    "cmdset[2]#collection[sec2]#colname[c1]#program_class[rclass]#result[df]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec2]#colname[c1]#program_class[rclass]#result[error]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[sec2]#colname[c1]#program_class[rclass]#result[p]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 0.11642479090815873
+    },
+    "cmdset[2]#collection[sec2]#colname[c2]#program_class[rclass]#result[chainrule]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 7.0
+    },
+    "cmdset[2]#collection[sec2]#colname[c3]#program_class[rclass]#result[chainrule]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "d": 7.0
+    },
+    "cmdset[2]#collection[sec2]#colname[c_relatives]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[2]#collection[sec2]#colname[i2scale_std]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[2]#collection[sec2]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[b]": {
+      "d": -0.16023749382792468
+    },
+    "cmdset[2]#collection[sec2]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[crit]": {
+      "d": 1.9692374962336776
+    },
+    "cmdset[2]#collection[sec2]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[df]": {
+      "d": 257.0
+    },
+    "cmdset[2]#collection[sec2]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[eform]": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[sec2]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[ll]": {
+      "d": -0.3605498918647256
+    },
+    "cmdset[2]#collection[sec2]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[pvalue]": {
+      "d": 0.11642479090815873
+    },
+    "cmdset[2]#collection[sec2]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[se]": {
+      "d": 0.1017207921441239
+    },
+    "cmdset[2]#collection[sec2]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[t]": {
+      "d": -1.5752678528190278
+    },
+    "cmdset[2]#collection[sec2]#colname[r1vs0.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (cost)\"']#rowname[ul]": {
+      "d": 0.040074904208876216
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[N]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 262.0
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[atopt1]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "navarm=0"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[atspec1]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "asobserved asobserved value value asobserved asobserved"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[atstats1]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "asobserved asobserved value value asobserved asobserved"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[cmd2]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "margins"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[cmd]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "contrast"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[cmdline]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "margins r.costarm,at(navarm=0)"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[deriv1]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[df_r]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 257.0
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[emptycells]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "strict"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[est_cmd]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "regress"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[est_cmdline]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "regress i2scale_std_fu i.costarm i.navarm c_relatives i2scale_std          if id==1"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[est_depvar]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "i2scale_std_fu"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[expression]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "predict()"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[is_xb1]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[j1_1]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[j2_1]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[k_at]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[k_by]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[k_margins]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[k_mlist]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[k_predict]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[k_terms]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 1.0
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[level]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 95.0
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[margins]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "i(0 1)b0.costarm"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[mcmethod]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "noadjust"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[mlist1]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "costarm"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[model_vce]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "ols"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[numeric]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[outcomeIsEq1]#result_type[scalar]#rowheader[`\"Difference (cost)\"']": {
+      "d": 0.0
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[predict1_label]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "Linear prediction"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[predict_label]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "Linear prediction"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[properties]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "b V"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[title]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "Contrasts of predictive margins"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[vce]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "delta"
+    },
+    "cmdset[2]#collection[sec2]#program_class[rclass]#result[vcetype]#result_type[macro]#rowheader[`\"Difference (cost)\"']": {
+      "s": "Delta-method"
+    },
+    "cmdset[3]#coleq[i2scale_std_fu]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_b]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.11987283217622821
+    },
+    "cmdset[3]#coleq[i2scale_std_fu]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_df]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 257.0
+    },
+    "cmdset[3]#coleq[i2scale_std_fu]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_lb]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": -0.04857903107822084
+    },
+    "cmdset[3]#coleq[i2scale_std_fu]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_p]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.16231931224500337
+    },
+    "cmdset[3]#coleq[i2scale_std_fu]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_se]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.08554166959375217
+    },
+    "cmdset[3]#coleq[i2scale_std_fu]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_ub]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.2883246954306773
+    },
+    "cmdset[3]#coleq[i2scale_std_fu]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_z]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 1.4013384675038367
+    },
+    "cmdset[3]#coleq[i2scale_std_fu]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_z_abs]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 1.4013384675038367
+    },
+    "cmdset[3]#coleq[i2scale_std_fu]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_b]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.04796173109476524
+    },
+    "cmdset[3]#coleq[i2scale_std_fu]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_df]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 257.0
+    },
+    "cmdset[3]#coleq[i2scale_std_fu]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_lb]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": -0.12746148970407714
+    },
+    "cmdset[3]#coleq[i2scale_std_fu]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_p]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.590766226193242
+    },
+    "cmdset[3]#coleq[i2scale_std_fu]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_se]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.08908180000348011
+    },
+    "cmdset[3]#coleq[i2scale_std_fu]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_ub]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.2233849518936076
+    },
+    "cmdset[3]#coleq[i2scale_std_fu]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_z]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.5384010100030707
+    },
+    "cmdset[3]#coleq[i2scale_std_fu]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_z_abs]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.5384010100030707
+    },
+    "cmdset[3]#coleq[invite]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_b]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.19615779316312806
+    },
+    "cmdset[3]#coleq[invite]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_df]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "s": "."
+    },
+    "cmdset[3]#coleq[invite]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_lb]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.1588179747408505
+    },
+    "cmdset[3]#coleq[invite]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_p]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 7.321889564145432e-25
+    },
+    "cmdset[3]#coleq[invite]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_se]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.019051277838169123
+    },
+    "cmdset[3]#coleq[invite]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_ub]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.23349761158540563
+    },
+    "cmdset[3]#coleq[invite]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_z]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 10.296306359572746
+    },
+    "cmdset[3]#coleq[invite]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_z_abs]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 10.296306359572746
+    },
+    "cmdset[3]#coleq[invite]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_b]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.17243814313218916
+    },
+    "cmdset[3]#coleq[invite]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_df]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "s": "."
+    },
+    "cmdset[3]#coleq[invite]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_lb]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.13723493903174172
+    },
+    "cmdset[3]#coleq[invite]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_p]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 7.946573861217705e-22
+    },
+    "cmdset[3]#coleq[invite]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_se]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.017961148458913452
+    },
+    "cmdset[3]#coleq[invite]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_ub]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.2076413472326366
+    },
+    "cmdset[3]#coleq[invite]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_z]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 9.600618998648415
+    },
+    "cmdset[3]#coleq[invite]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_z_abs]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 9.600618998648415
+    },
+    "cmdset[3]#coleq[test]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_b]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.032504407953298786
+    },
+    "cmdset[3]#coleq[test]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_df]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "s": "."
+    },
+    "cmdset[3]#coleq[test]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_lb]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.020821393476117264
+    },
+    "cmdset[3]#coleq[test]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_p]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 4.95272842532559e-08
+    },
+    "cmdset[3]#coleq[test]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_se]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.0059608312037035625
+    },
+    "cmdset[3]#coleq[test]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_ub]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.04418742243048031
+    },
+    "cmdset[3]#coleq[test]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_z]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 5.45299922821221
+    },
+    "cmdset[3]#coleq[test]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_r_z_abs]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 5.45299922821221
+    },
+    "cmdset[3]#coleq[test]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_b]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.04119308730227356
+    },
+    "cmdset[3]#coleq[test]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_df]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "s": "."
+    },
+    "cmdset[3]#coleq[test]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_lb]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.027055664633345543
+    },
+    "cmdset[3]#coleq[test]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_p]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 1.1240080605360763e-08
+    },
+    "cmdset[3]#coleq[test]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_se]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.00721310329191873
+    },
+    "cmdset[3]#coleq[test]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_ub]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 0.05533050997120157
+    },
+    "cmdset[3]#coleq[test]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_z]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 5.7108689055409245
+    },
+    "cmdset[3]#coleq[test]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_z_abs]#result_type[matrix]#rowheader[`\"Group means navigator\"']": {
+      "d": 5.7108689055409245
+    },
+    "cmdset[3]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[3]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 4946.0
+    },
+    "cmdset[3]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[3]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[error]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[3]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[b]": {
+      "d": 0.032504407953298786
+    },
+    "cmdset[3]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[crit]": {
+      "d": 1.9599639845400538
+    },
+    "cmdset[3]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[df]": {
+      "s": "."
+    },
+    "cmdset[3]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[eform]": {
+      "d": 0.0
+    },
+    "cmdset[3]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[ll]": {
+      "d": 0.020821393476117264
+    },
+    "cmdset[3]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[pvalue]": {
+      "d": 4.95272842532559e-08
+    },
+    "cmdset[3]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[se]": {
+      "d": 0.0059608312037035625
+    },
+    "cmdset[3]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[ul]": {
+      "d": 0.04418742243048031
+    },
+    "cmdset[3]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[z]": {
+      "d": 5.45299922821221
+    },
+    "cmdset[3]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[3]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 4946.0
+    },
+    "cmdset[3]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[3]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[error]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[3]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[b]": {
+      "d": 0.04119308730227356
+    },
+    "cmdset[3]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[crit]": {
+      "d": 1.9599639845400538
+    },
+    "cmdset[3]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[df]": {
+      "s": "."
+    },
+    "cmdset[3]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[eform]": {
+      "d": 0.0
+    },
+    "cmdset[3]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[ll]": {
+      "d": 0.027055664633345543
+    },
+    "cmdset[3]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[pvalue]": {
+      "d": 1.1240080605360763e-08
+    },
+    "cmdset[3]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[se]": {
+      "d": 0.00721310329191873
+    },
+    "cmdset[3]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[ul]": {
+      "d": 0.05533050997120157
+    },
+    "cmdset[3]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[z]": {
+      "d": 5.7108689055409245
+    },
+    "cmdset[3]#collection[primary]#colname[c_relatives]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[3]#collection[primary]#colname[female]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[3]#collection[primary]#colname[i2scale_std]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[N]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 4946.0
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[atstats1]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "value value asobserved asobserved asobserved asobserved asobserved"
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[cmd]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "margins"
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[cmdline]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "margins navarm,at(costarm=0)"
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[emptycells]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "strict"
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[est_cmd]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "meglm"
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[est_cmdline]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "melogit test i.costarm i.navarm c_relatives i2scale_std         female || access_code: , nolog"
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[expression]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "predict()"
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[k_at]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 1.0
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[k_by]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 1.0
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[k_margins]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 1.0
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[k_predict]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 1.0
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[level]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 95.0
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[margins]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "i(0 1)b0.navarm"
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[mcmethod]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "noadjust"
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[model_vce]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "oim"
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[predict1_label]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "Marginal predicted mean"
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[title]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "Predictive margins"
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[vce]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "delta"
+    },
+    "cmdset[3]#collection[primary]#program_class[rclass]#result[vcetype]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "Delta-method"
+    },
+    "cmdset[3]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[3]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 4946.0
+    },
+    "cmdset[3]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[3]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[error]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[3]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[b]": {
+      "d": 0.19615779316312806
+    },
+    "cmdset[3]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[crit]": {
+      "d": 1.9599639845400538
+    },
+    "cmdset[3]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[df]": {
+      "s": "."
+    },
+    "cmdset[3]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[eform]": {
+      "d": 0.0
+    },
+    "cmdset[3]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[ll]": {
+      "d": 0.1588179747408505
+    },
+    "cmdset[3]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[pvalue]": {
+      "d": 7.321889564145432e-25
+    },
+    "cmdset[3]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[se]": {
+      "d": 0.019051277838169123
+    },
+    "cmdset[3]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[ul]": {
+      "d": 0.23349761158540563
+    },
+    "cmdset[3]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[z]": {
+      "d": 10.296306359572746
+    },
+    "cmdset[3]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[3]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 4946.0
+    },
+    "cmdset[3]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[3]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[error]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[3]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[b]": {
+      "d": 0.17243814313218916
+    },
+    "cmdset[3]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[crit]": {
+      "d": 1.9599639845400538
+    },
+    "cmdset[3]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[df]": {
+      "s": "."
+    },
+    "cmdset[3]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[eform]": {
+      "d": 0.0
+    },
+    "cmdset[3]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[ll]": {
+      "d": 0.13723493903174172
+    },
+    "cmdset[3]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[pvalue]": {
+      "d": 7.946573861217705e-22
+    },
+    "cmdset[3]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[se]": {
+      "d": 0.017961148458913452
+    },
+    "cmdset[3]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[ul]": {
+      "d": 0.2076413472326366
+    },
+    "cmdset[3]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[z]": {
+      "d": 9.600618998648415
+    },
+    "cmdset[3]#collection[sec1]#colname[c_relatives]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[3]#collection[sec1]#colname[female]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[3]#collection[sec1]#colname[i2scale_std]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[N]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 4946.0
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[atstats1]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "value value asobserved asobserved asobserved asobserved asobserved"
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[cmd]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "margins"
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[cmdline]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "margins navarm,at(costarm=0)"
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[emptycells]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "strict"
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[est_cmd]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "meglm"
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[est_cmdline]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "melogit invite i.costarm i.navarm c_relatives i2scale_std         female || access_code: , nolog"
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[expression]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "predict()"
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[k_at]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 1.0
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[k_by]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 1.0
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[k_margins]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 1.0
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[k_predict]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 1.0
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[level]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 95.0
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[margins]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "i(0 1)b0.navarm"
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[mcmethod]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "noadjust"
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[model_vce]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "oim"
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[predict1_label]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "Marginal predicted mean"
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[title]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "Predictive margins"
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[vce]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "delta"
+    },
+    "cmdset[3]#collection[sec1]#program_class[rclass]#result[vcetype]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "Delta-method"
+    },
+    "cmdset[3]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[3]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 262.0
+    },
+    "cmdset[3]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[3]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[error]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[3]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[b]": {
+      "d": 0.11987283217622821
+    },
+    "cmdset[3]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[crit]": {
+      "d": 1.9692374962336776
+    },
+    "cmdset[3]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[df]": {
+      "d": 257.0
+    },
+    "cmdset[3]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[eform]": {
+      "d": 0.0
+    },
+    "cmdset[3]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[ll]": {
+      "d": -0.04857903107822084
+    },
+    "cmdset[3]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[pvalue]": {
+      "d": 0.16231931224500337
+    },
+    "cmdset[3]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[se]": {
+      "d": 0.08554166959375217
+    },
+    "cmdset[3]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[t]": {
+      "d": 1.4013384675038367
+    },
+    "cmdset[3]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[ul]": {
+      "d": 0.2883246954306773
+    },
+    "cmdset[3]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[3]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 262.0
+    },
+    "cmdset[3]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[3]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[error]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[3]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[b]": {
+      "d": 0.04796173109476524
+    },
+    "cmdset[3]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[crit]": {
+      "d": 1.9692374962336776
+    },
+    "cmdset[3]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[df]": {
+      "d": 257.0
+    },
+    "cmdset[3]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[eform]": {
+      "d": 0.0
+    },
+    "cmdset[3]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[ll]": {
+      "d": -0.12746148970407714
+    },
+    "cmdset[3]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[pvalue]": {
+      "d": 0.590766226193242
+    },
+    "cmdset[3]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[se]": {
+      "d": 0.08908180000348011
+    },
+    "cmdset[3]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[t]": {
+      "d": 0.5384010100030707
+    },
+    "cmdset[3]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[ul]": {
+      "d": 0.2233849518936076
+    },
+    "cmdset[3]#collection[sec2]#colname[c1]#program_class[rclass]#result[chainrule]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[3]#collection[sec2]#colname[c2]#program_class[rclass]#result[chainrule]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 7.0
+    },
+    "cmdset[3]#collection[sec2]#colname[c3]#program_class[rclass]#result[chainrule]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "d": 7.0
+    },
+    "cmdset[3]#collection[sec2]#colname[c_relatives]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[3]#collection[sec2]#colname[i2scale_std]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Group means navigator\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[N]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 262.0
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[atstats1]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "value value asobserved asobserved asobserved asobserved"
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[cmd]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "margins"
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[cmdline]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "margins navarm,at(costarm=0)"
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[df_r]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 257.0
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[emptycells]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "strict"
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[est_cmd]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "regress"
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[est_cmdline]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "regress i2scale_std_fu i.costarm i.navarm c_relatives i2scale_std          if id==1"
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[expression]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "predict()"
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[k_at]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 1.0
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[k_by]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 1.0
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[k_margins]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 1.0
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[k_predict]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 1.0
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[level]#result_type[scalar]#rowheader[`\"Group means navigator\"']": {
+      "d": 95.0
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[margins]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "i(0 1)b0.navarm"
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[mcmethod]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "noadjust"
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[model_vce]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "ols"
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[predict1_label]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "Linear prediction"
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[title]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "Predictive margins"
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[vce]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "delta"
+    },
+    "cmdset[3]#collection[sec2]#program_class[rclass]#result[vcetype]#result_type[macro]#rowheader[`\"Group means navigator\"']": {
+      "s": "Delta-method"
+    },
+    "cmdset[4]#coleq[i2scale_std_fu]#collection[sec2]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_b]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": -0.07191110108146298
+    },
+    "cmdset[4]#coleq[i2scale_std_fu]#collection[sec2]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_df]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 257.0
+    },
+    "cmdset[4]#coleq[i2scale_std_fu]#collection[sec2]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_lb]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": -0.27208853317977655
+    },
+    "cmdset[4]#coleq[i2scale_std_fu]#collection[sec2]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_p]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.4799448967089148
+    },
+    "cmdset[4]#coleq[i2scale_std_fu]#collection[sec2]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_se]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.1016522549876126
+    },
+    "cmdset[4]#coleq[i2scale_std_fu]#collection[sec2]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_ub]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.12826633101685062
+    },
+    "cmdset[4]#coleq[i2scale_std_fu]#collection[sec2]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_z]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": -0.7074225858563207
+    },
+    "cmdset[4]#coleq[i2scale_std_fu]#collection[sec2]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_z_abs]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.7074225858563207
+    },
+    "cmdset[4]#coleq[invite]#collection[sec1]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_b]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": -0.0237196500309389
+    },
+    "cmdset[4]#coleq[invite]#collection[sec1]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_df]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "."
+    },
+    "cmdset[4]#coleq[invite]#collection[sec1]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_lb]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": -0.06451343281821924
+    },
+    "cmdset[4]#coleq[invite]#collection[sec1]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_p]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.25444210480223045
+    },
+    "cmdset[4]#coleq[invite]#collection[sec1]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_se]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.020813536936931748
+    },
+    "cmdset[4]#coleq[invite]#collection[sec1]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_ub]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.01707413275634144
+    },
+    "cmdset[4]#coleq[invite]#collection[sec1]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_z]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": -1.1396261050110381
+    },
+    "cmdset[4]#coleq[invite]#collection[sec1]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_z_abs]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.1396261050110381
+    },
+    "cmdset[4]#coleq[test]#collection[primary]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_b]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.00868867934897477
+    },
+    "cmdset[4]#coleq[test]#collection[primary]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_df]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "."
+    },
+    "cmdset[4]#coleq[test]#collection[primary]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_lb]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": -0.005285472979895458
+    },
+    "cmdset[4]#coleq[test]#collection[primary]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_p]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.22297983829203996
+    },
+    "cmdset[4]#coleq[test]#collection[primary]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_se]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.007129800567304584
+    },
+    "cmdset[4]#coleq[test]#collection[primary]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_ub]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.022662831677844997
+    },
+    "cmdset[4]#coleq[test]#collection[primary]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_z]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.2186426909076251
+    },
+    "cmdset[4]#coleq[test]#collection[primary]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_r_z_abs]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.2186426909076251
+    },
+    "cmdset[4]#collection[primary]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[L]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1vs0.navarm]": {
+      "d": -1.0
+    },
+    "cmdset[4]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 4946.0
+    },
+    "cmdset[4]#collection[primary]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[4]#collection[primary]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[L]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1vs0.navarm]": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 4946.0
+    },
+    "cmdset[4]#collection[primary]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[4]#collection[primary]#colname[c1]#program_class[rclass]#result[atdims]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[primary]#colname[c1]#program_class[rclass]#result[chi2]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 1.4850900081025777
+    },
+    "cmdset[4]#collection[primary]#colname[c1]#program_class[rclass]#result[df]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[primary]#colname[c1]#program_class[rclass]#result[error]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[primary]#colname[c1]#program_class[rclass]#result[p]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 0.22297983829204013
+    },
+    "cmdset[4]#collection[primary]#colname[c_relatives]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[4]#collection[primary]#colname[female]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[4]#collection[primary]#colname[i2scale_std]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[4]#collection[primary]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[b]": {
+      "d": 0.00868867934897477
+    },
+    "cmdset[4]#collection[primary]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[crit]": {
+      "d": 1.9599639845400538
+    },
+    "cmdset[4]#collection[primary]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[df]": {
+      "s": "."
+    },
+    "cmdset[4]#collection[primary]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[eform]": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[primary]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[ll]": {
+      "d": -0.005285472979895458
+    },
+    "cmdset[4]#collection[primary]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[pvalue]": {
+      "d": 0.22297983829203996
+    },
+    "cmdset[4]#collection[primary]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[se]": {
+      "d": 0.007129800567304584
+    },
+    "cmdset[4]#collection[primary]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[ul]": {
+      "d": 0.022662831677844997
+    },
+    "cmdset[4]#collection[primary]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[z]": {
+      "d": 1.2186426909076251
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[N]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 4946.0
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[atopt1]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "costarm=0"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[atspec1]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "value value asobserved asobserved asobserved asobserved asobserved"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[atstats1]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "value value asobserved asobserved asobserved asobserved asobserved"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[cmd2]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "margins"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[cmd]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "contrast"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[cmdline]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "margins r.navarm,at(costarm=0)"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[deriv1]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[emptycells]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "strict"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[est_cmd]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "meglm"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[est_cmdline]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "melogit test i.costarm i.navarm c_relatives i2scale_std         female || access_code: , nolog"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[est_depvar]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "test"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[expression]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "predict()"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[is_xb1]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[j1_1]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[j2_1]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[k_at]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[k_by]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[k_margins]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[k_mlist]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[k_predict]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[k_terms]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[level]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 95.0
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[margins]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "i(0 1)b0.navarm"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[mcmethod]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "noadjust"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[mlist1]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "navarm"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[model_vce]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "oim"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[numeric]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[outcomeIsEq1]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[predict1_label]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "Marginal predicted mean"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[predict_label]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "Marginal predicted mean"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[properties]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "b V"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[title]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "Contrasts of predictive margins"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[vce]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "delta"
+    },
+    "cmdset[4]#collection[primary]#program_class[rclass]#result[vcetype]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "Delta-method"
+    },
+    "cmdset[4]#collection[sec1]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[L]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1vs0.navarm]": {
+      "d": -1.0
+    },
+    "cmdset[4]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 4946.0
+    },
+    "cmdset[4]#collection[sec1]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[4]#collection[sec1]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[L]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1vs0.navarm]": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 4946.0
+    },
+    "cmdset[4]#collection[sec1]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[4]#collection[sec1]#colname[c1]#program_class[rclass]#result[atdims]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec1]#colname[c1]#program_class[rclass]#result[chi2]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 1.2987476592226297
+    },
+    "cmdset[4]#collection[sec1]#colname[c1]#program_class[rclass]#result[df]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec1]#colname[c1]#program_class[rclass]#result[error]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[sec1]#colname[c1]#program_class[rclass]#result[p]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 0.2544421048022307
+    },
+    "cmdset[4]#collection[sec1]#colname[c_relatives]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[4]#collection[sec1]#colname[female]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[4]#collection[sec1]#colname[i2scale_std]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[4]#collection[sec1]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[b]": {
+      "d": -0.0237196500309389
+    },
+    "cmdset[4]#collection[sec1]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[crit]": {
+      "d": 1.9599639845400538
+    },
+    "cmdset[4]#collection[sec1]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[df]": {
+      "s": "."
+    },
+    "cmdset[4]#collection[sec1]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[eform]": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[sec1]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[ll]": {
+      "d": -0.06451343281821924
+    },
+    "cmdset[4]#collection[sec1]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[pvalue]": {
+      "d": 0.25444210480223045
+    },
+    "cmdset[4]#collection[sec1]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[se]": {
+      "d": 0.020813536936931748
+    },
+    "cmdset[4]#collection[sec1]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[ul]": {
+      "d": 0.01707413275634144
+    },
+    "cmdset[4]#collection[sec1]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[z]": {
+      "d": -1.1396261050110381
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[N]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 4946.0
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[atopt1]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "costarm=0"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[atspec1]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "value value asobserved asobserved asobserved asobserved asobserved"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[atstats1]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "value value asobserved asobserved asobserved asobserved asobserved"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[cmd2]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "margins"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[cmd]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "contrast"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[cmdline]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "margins r.navarm,at(costarm=0)"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[deriv1]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[emptycells]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "strict"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[est_cmd]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "meglm"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[est_cmdline]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "melogit invite i.costarm i.navarm c_relatives i2scale_std         female || access_code: , nolog"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[est_depvar]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "invite"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[expression]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "predict()"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[is_xb1]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[j1_1]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[j2_1]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[k_at]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[k_by]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[k_margins]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[k_mlist]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[k_predict]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[k_terms]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[level]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 95.0
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[margins]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "i(0 1)b0.navarm"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[mcmethod]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "noadjust"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[mlist1]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "navarm"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[model_vce]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "oim"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[numeric]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[outcomeIsEq1]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[predict1_label]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "Marginal predicted mean"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[predict_label]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "Marginal predicted mean"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[properties]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "b V"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[title]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "Contrasts of predictive margins"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[vce]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "delta"
+    },
+    "cmdset[4]#collection[sec1]#program_class[rclass]#result[vcetype]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "Delta-method"
+    },
+    "cmdset[4]#collection[sec2]#colname[0.costarm]#colname_remainder[_cons]#costarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[L]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1vs0.navarm]": {
+      "d": -1.0
+    },
+    "cmdset[4]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 262.0
+    },
+    "cmdset[4]#collection[sec2]#colname[0.navarm]#colname_remainder[_cons]#navarm[0]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[4]#collection[sec2]#colname[1.costarm]#colname_remainder[_cons]#costarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[L]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1vs0.navarm]": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[_N]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 262.0
+    },
+    "cmdset[4]#collection[sec2]#colname[1.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[4]#collection[sec2]#colname[c1]#program_class[rclass]#result[F]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 0.5004467149796434
+    },
+    "cmdset[4]#collection[sec2]#colname[c1]#program_class[rclass]#result[atdims]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec2]#colname[c1]#program_class[rclass]#result[chainrule]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec2]#colname[c1]#program_class[rclass]#result[df2]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 257.0
+    },
+    "cmdset[4]#collection[sec2]#colname[c1]#program_class[rclass]#result[df]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec2]#colname[c1]#program_class[rclass]#result[error]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[sec2]#colname[c1]#program_class[rclass]#result[p]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 0.4799448967089148
+    },
+    "cmdset[4]#collection[sec2]#colname[c2]#program_class[rclass]#result[chainrule]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 7.0
+    },
+    "cmdset[4]#collection[sec2]#colname[c3]#program_class[rclass]#result[chainrule]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "d": 7.0
+    },
+    "cmdset[4]#collection[sec2]#colname[c_relatives]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[4]#collection[sec2]#colname[i2scale_std]#program_class[rclass]#result[at]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[r1]": {
+      "s": "."
+    },
+    "cmdset[4]#collection[sec2]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[b]": {
+      "d": -0.07191110108146298
+    },
+    "cmdset[4]#collection[sec2]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[crit]": {
+      "d": 1.9692374962336776
+    },
+    "cmdset[4]#collection[sec2]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[df]": {
+      "d": 257.0
+    },
+    "cmdset[4]#collection[sec2]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[eform]": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[sec2]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[ll]": {
+      "d": -0.27208853317977655
+    },
+    "cmdset[4]#collection[sec2]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[pvalue]": {
+      "d": 0.4799448967089148
+    },
+    "cmdset[4]#collection[sec2]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[se]": {
+      "d": 0.1016522549876126
+    },
+    "cmdset[4]#collection[sec2]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[t]": {
+      "d": -0.7074225858563207
+    },
+    "cmdset[4]#collection[sec2]#colname[r1vs0.navarm]#colname_remainder[_cons]#navarm[1]#program_class[rclass]#result[table]#result_type[matrix]#rowheader[`\"Difference (navigator)\"']#rowname[ul]": {
+      "d": 0.12826633101685062
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[N]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 262.0
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[atopt1]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "costarm=0"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[atspec1]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "value value asobserved asobserved asobserved asobserved"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[atstats1]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "value value asobserved asobserved asobserved asobserved"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[cmd2]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "margins"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[cmd]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "contrast"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[cmdline]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "margins r.navarm,at(costarm=0)"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[deriv1]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[df_r]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 257.0
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[emptycells]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "strict"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[est_cmd]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "regress"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[est_cmdline]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "regress i2scale_std_fu i.costarm i.navarm c_relatives i2scale_std          if id==1"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[est_depvar]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "i2scale_std_fu"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[expression]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "predict()"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[is_xb1]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[j1_1]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[j2_1]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[k_at]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[k_by]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[k_margins]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[k_mlist]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[k_predict]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[k_terms]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 1.0
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[level]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 95.0
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[margins]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "i(0 1)b0.navarm"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[mcmethod]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "noadjust"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[mlist1]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "navarm"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[model_vce]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "ols"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[numeric]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[outcomeIsEq1]#result_type[scalar]#rowheader[`\"Difference (navigator)\"']": {
+      "d": 0.0
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[predict1_label]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "Linear prediction"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[predict_label]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "Linear prediction"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[properties]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "b V"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[title]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "Contrasts of predictive margins"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[vce]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "delta"
+    },
+    "cmdset[4]#collection[sec2]#program_class[rclass]#result[vcetype]#result_type[macro]#rowheader[`\"Difference (navigator)\"']": {
+      "s": "Delta-method"
+    },
+    "cmdset[5]#collection[primary]#program_class[nclass]#result[_r_b]#result_type[scalar]#row[num_families]": {
+      "d": 414.0
+    },
+    "cmdset[5]#collection[sec1]#program_class[nclass]#result[_r_b]#result_type[scalar]#row[num_families]": {
+      "d": 414.0
+    },
+    "cmdset[5]#collection[sec2]#program_class[nclass]#result[_r_b]#result_type[scalar]#row[num_families]": {
+      "d": 262.0
+    },
+    "cmdset[6]#collection[primary]#colname[c1]#program_class[nclass]#result[_r_b]#result_type[matrix]#row1[num_obs]#rowname[r1]": {
+      "d": 4946.0
+    },
+    "cmdset[6]#collection[sec1]#colname[c1]#program_class[nclass]#result[_r_b]#result_type[matrix]#row1[num_obs]#rowname[r1]": {
+      "d": 4946.0
+    }
+  },
+  "Labels": {
+    "Dimensions": {
+      "_dimensions": {
+        "border_block": "Table border block",
+        "cell_type": "Table cell type",
+        "cmdset": "Command results index",
+        "coleq": "Depvars, parameters, and column equations",
+        "colname": "Covariate names and column names",
+        "colname_remainder": "Covariate names with factors removed",
+        "costarm": "Free-testing (vs low-cost)",
+        "navarm": "Navigator (vs none)",
+        "program_class": "Result program class",
+        "result": "Result",
+        "result_type": "Result type",
+        "rowname": "Row names"
+      },
+      "coleq": {
+        "i2scale_std_fu": "fu-std-tph",
+        "invite": "Invited",
+        "test": "Cost=0"
+      },
+      "collection": {
+        "primary": "Relatives tested (primary)",
+        "sec1": "Relatives invited (secondary)",
+        "sec2": "Communication (secondary)"
+      },
+      "colname": {
+        "0.costarm": "Low-cost (no navigator)",
+        "0.navarm": "No Navigator (low cost)",
+        "1.costarm": "Free (no navigator)",
+        "1.navarm": "Navigator (low-cost)",
+        "costarm": "Free-testing (vs low-cost)",
+        "i2scale_std": "Standardized values of i2scale_unstd",
+        "navarm": "Navigator (vs none)",
+        "r1vs0.costarm": "Free vs low-cost",
+        "r1vs0.navarm": "Navigator vs none"
+      },
+      "result": {
+        "L": "Contrasts",
+        "N": "Number of observations",
+        "_N": "Sample size",
+        "_r_b": "Proportion",
+        "_r_ci": "__LEVEL__% CI",
+        "_r_df": "df",
+        "_r_lb": "__LEVEL__% lower bound",
+        "_r_p": "p-value",
+        "_r_se": "Std. error",
+        "_r_ub": "__LEVEL__% upper bound",
+        "_r_z": "z",
+        "_r_z_abs": "|z|",
+        "at": "Values from the at() options",
+        "chainrule": "Chain rule information from the fitted model",
+        "chi2": "χ² statistics",
+        "cmd": "Command",
+        "cmd2": "Base or alternate command",
+        "cmdline": "Command line as typed",
+        "df": "DFs for contrasts",
+        "df_r": "Variance DF",
+        "emptycells": "Empty cells specification",
+        "est_cmd": "Command for original estimation results",
+        "est_cmdline": "Estimation command line from original estimation results",
+        "expression": "Response expression",
+        "k_at": "Number of at() options",
+        "k_by": "Subpopulations",
+        "k_margins": "Number of terms in marginlist",
+        "k_predict": "Number of predict() options",
+        "k_terms": "Number of terms",
+        "level": "Confidence level of CIs",
+        "margins": "Margins",
+        "mcmethod": "Multiple comparisons method",
+        "model_vce": "Vcetype from estimation command",
+        "p": "χ² test p-values",
+        "properties": "Command properties",
+        "table": "Statistics table",
+        "title": "Title of output",
+        "vce": "SE method",
+        "vcetype": "SE method"
+      },
+      "result_type": {
+        "macro": "Macro",
+        "matrix": "Matrix",
+        "scalar": "Scalar"
+      },
+      "row": {
+        "num_families": "Number of index patients"
+      },
+      "row1": {
+        "num_obs": "Number of relatives"
+      },
+      "rowname": {
+        "costarm": "Free-testing (vs low-cost)",
+        "navarm": "Navigator (vs none)"
+      }
+    }
+  },
+  "Layout": {
+    "columns": "collection#result[coef_ci]",
+    "rows": "rowheader#colname row row1",
+    "tables": ""
+  },
+  "MacroResults": [
+    "atopt1",
+    "atspec1",
+    "atstats1",
+    "cmd",
+    "cmd2",
+    "cmdline",
+    "emptycells",
+    "est_cmd",
+    "est_cmdline",
+    "est_depvar",
+    "expression",
+    "margins",
+    "mcmethod",
+    "mlist1",
+    "model_vce",
+    "predict1_label",
+    "predict_label",
+    "properties",
+    "title",
+    "vce",
+    "vcetype"
+  ],
+  "MatrixResults": [
+    "F",
+    "L",
+    "_N",
+    "at",
+    "atdims",
+    "chainrule",
+    "chi2",
+    "df",
+    "df2",
+    "error",
+    "num_obs",
+    "p",
+    "table"
+  ],
+  "ScalarResults": [
+    "N",
+    "deriv1",
+    "df_r",
+    "is_xb1",
+    "j1_1",
+    "j2_1",
+    "k_at",
+    "k_by",
+    "k_margins",
+    "k_mlist",
+    "k_predict",
+    "k_terms",
+    "level",
+    "num_families",
+    "numeric",
+    "outcomeIsEq1"
+  ],
+  "StripeFactorDimNames": [
+    "costarm",
+    "navarm"
+  ],
+  "StripeFactorNames": [
+    "costarm",
+    "navarm"
+  ],
+  "Styles": {
+    "CompositeMap": {
+      "coef_ci": {
+        "elements": [
+          "_r_b",
+          "_r_ci"
+        ],
+        "trim": "true"
+      }
+    },
+    "cell": {
+      "base": {
+        "ci-delimiter": " ",
+        "cri-delimiter": " ",
+        "nformat": "%9.0g"
+      },
+      "edits": [
+        [
+          "cell_type[item]",
+          {
+            "smcl": "result"
+          }
+        ],
+        [
+          "result[_r_b _r_se _r_lb _r_ub _r_ci _r_crlb _r_crub _r_cri]",
+          {
+            "nformat": "%9.0g"
+          }
+        ],
+        [
+          "result[_r_z _r_z_abs]",
+          {
+            "nformat": "%8.2f"
+          }
+        ],
+        [
+          "result[_r_p]",
+          {
+            "nformat": "%5.3f"
+          }
+        ],
+        [
+          "cell_type[item]",
+          {
+            "margin-left": {
+              "width": "10pt"
+            }
+          }
+        ],
+        [
+          "cell_type[corner]",
+          {
+            "halign": "center"
+          }
+        ],
+        [
+          "cell_type[column-header]",
+          {
+            "halign": "right"
+          }
+        ],
+        [
+          "cell_type[column-header]#result[_r_ci _r_cri]",
+          {
+            "halign": "center"
+          }
+        ],
+        [
+          "cell_type[item]",
+          {
+            "halign": "right"
+          }
+        ],
+        [
+          "cell_type[row-header]",
+          {
+            "halign": "left"
+          }
+        ],
+        [
+          "border_block[corner]",
+          {
+            "border-right": {
+              "pattern": "single"
+            },
+            "border-top": {
+              "pattern": "single"
+            }
+          }
+        ],
+        [
+          "border_block[column-header]",
+          {
+            "border-top": {
+              "pattern": "single"
+            }
+          }
+        ],
+        [
+          "border_block[row-header]",
+          {
+            "border-bottom": {
+              "pattern": "single"
+            },
+            "border-right": {
+              "pattern": "single"
+            },
+            "border-top": {
+              "pattern": "single"
+            }
+          }
+        ],
+        [
+          "border_block[item]",
+          {
+            "border-bottom": {
+              "pattern": "single"
+            },
+            "border-top": {
+              "pattern": "single"
+            }
+          }
+        ],
+        [
+          "row[num_families]",
+          {
+            "nformat": "%5.0f"
+          }
+        ],
+        [
+          "",
+          {
+            "nformat": "%5.2f"
+          }
+        ],
+        [
+          "result[_r_ci]",
+          {
+            "ci-delimiter": ", ",
+            "sformat": "[%s]"
+          }
+        ],
+        [
+          "result[_r_b]",
+          {
+            "halign": "center"
+          }
+        ],
+        [
+          "cell_type[item]",
+          {
+            "smcl": "result"
+          }
+        ],
+        [
+          "result[_r_b _r_se _r_lb _r_ub _r_ci _r_crlb _r_crub _r_cri]",
+          {
+            "nformat": "%9.0g"
+          }
+        ],
+        [
+          "result[_r_z _r_z_abs]",
+          {
+            "nformat": "%8.2f"
+          }
+        ],
+        [
+          "result[_r_p]",
+          {
+            "nformat": "%5.3f"
+          }
+        ],
+        [
+          "cell_type[item]",
+          {
+            "margin-left": {
+              "width": "10pt"
+            }
+          }
+        ],
+        [
+          "cell_type[corner]",
+          {
+            "halign": "center"
+          }
+        ],
+        [
+          "cell_type[column-header]",
+          {
+            "halign": "right"
+          }
+        ],
+        [
+          "cell_type[column-header]#result[_r_ci _r_cri]",
+          {
+            "halign": "center"
+          }
+        ],
+        [
+          "cell_type[item]",
+          {
+            "halign": "right"
+          }
+        ],
+        [
+          "cell_type[row-header]",
+          {
+            "halign": "left"
+          }
+        ],
+        [
+          "border_block[corner]",
+          {
+            "border-right": {
+              "pattern": "single"
+            },
+            "border-top": {
+              "pattern": "single"
+            }
+          }
+        ],
+        [
+          "border_block[column-header]",
+          {
+            "border-top": {
+              "pattern": "single"
+            }
+          }
+        ],
+        [
+          "border_block[row-header]",
+          {
+            "border-bottom": {
+              "pattern": "single"
+            },
+            "border-right": {
+              "pattern": "single"
+            },
+            "border-top": {
+              "pattern": "single"
+            }
+          }
+        ],
+        [
+          "border_block[item]",
+          {
+            "border-bottom": {
+              "pattern": "single"
+            },
+            "border-top": {
+              "pattern": "single"
+            }
+          }
+        ],
+        [
+          "",
+          {
+            "nformat": "%5.2f"
+          }
+        ],
+        [
+          "row[num_families]",
+          {
+            "nformat": "%5.0f"
+          }
+        ],
+        [
+          "row1[num_obs]",
+          {
+            "nformat": "%5.0f"
+          }
+        ],
+        [
+          "result[_r_ci]",
+          {
+            "ci-delimiter": ", ",
+            "sformat": "[%s]"
+          }
+        ],
+        [
+          "result[_r_b]",
+          {
+            "halign": "center"
+          }
+        ],
+        [
+          "cell_type[item]",
+          {
+            "smcl": "result"
+          }
+        ],
+        [
+          "result[_r_b _r_se _r_lb _r_ub _r_ci _r_crlb _r_crub _r_cri]",
+          {
+            "nformat": "%9.0g"
+          }
+        ],
+        [
+          "result[_r_z _r_z_abs]",
+          {
+            "nformat": "%8.2f"
+          }
+        ],
+        [
+          "result[_r_p]",
+          {
+            "nformat": "%5.3f"
+          }
+        ],
+        [
+          "cell_type[item]",
+          {
+            "margin-left": {
+              "width": "10pt"
+            }
+          }
+        ],
+        [
+          "cell_type[corner]",
+          {
+            "halign": "center"
+          }
+        ],
+        [
+          "cell_type[column-header]",
+          {
+            "halign": "right"
+          }
+        ],
+        [
+          "cell_type[column-header]#result[_r_ci _r_cri]",
+          {
+            "halign": "center"
+          }
+        ],
+        [
+          "cell_type[item]",
+          {
+            "halign": "right"
+          }
+        ],
+        [
+          "cell_type[row-header]",
+          {
+            "halign": "left"
+          }
+        ],
+        [
+          "border_block[corner]",
+          {
+            "border-right": {
+              "pattern": "single"
+            },
+            "border-top": {
+              "pattern": "single"
+            }
+          }
+        ],
+        [
+          "border_block[column-header]",
+          {
+            "border-top": {
+              "pattern": "single"
+            }
+          }
+        ],
+        [
+          "border_block[row-header]",
+          {
+            "border-bottom": {
+              "pattern": "single"
+            },
+            "border-right": {
+              "pattern": "single"
+            },
+            "border-top": {
+              "pattern": "single"
+            }
+          }
+        ],
+        [
+          "border_block[item]",
+          {
+            "border-bottom": {
+              "pattern": "single"
+            },
+            "border-top": {
+              "pattern": "single"
+            }
+          }
+        ],
+        [
+          "",
+          {
+            "nformat": "%5.2f"
+          }
+        ],
+        [
+          "row[num_families]",
+          {
+            "nformat": "%5.0f"
+          }
+        ],
+        [
+          "row1[num_obs]",
+          {
+            "nformat": "%5.0f"
+          }
+        ],
+        [
+          "result[_r_ci]",
+          {
+            "ci-delimiter": ", ",
+            "sformat": "[%s]"
+          }
+        ],
+        [
+          "result[_r_b]",
+          {
+            "halign": "center"
+          }
+        ]
+      ]
+    },
+    "export": {
+      "tex": {
+        "begintable": "true",
+        "centering": "true"
+      }
+    },
+    "header": {
+      "auto-levels": {
+        "result": [
+          {
+            "stripe": "_r_b",
+            "term-index": 0
+          },
+          {
+            "stripe": "_r_ci",
+            "term-index": 1
+          },
+          {
+            "stripe": "num_families",
+            "term-index": 2
+          },
+          {
+            "stripe": "num_obs",
+            "term-index": 3
+          }
+        ]
+      },
+      "base": {
+        "level": "label",
+        "title": "hide"
+      },
+      "dimensions": {
+        "stars": {
+          "level": "hide",
+          "title": "hide"
+        }
+      },
+      "row": {
+        "arrangement": "stack"
+      }
+    },
+    "notes": [
+      "1. The testing and invitation outcomes were assessed at the relative level with relatives clustered within index patients in multilevel models",
+      "2. The comfort with communication outcome was assessed for index patients who responded to a survey 6 months after the intervention and results are presented in units of standard deviations of the scale.",
+      "3. All effects are predicted outcomes averaged over the distribution of the pre-specified covariates for each regression and also averaged over the family effects for the multilevel models."
+    ],
+    "title": "Table 1. Intervention and control group means and differences for primary and secondary outcomes"
+  },
+  "Tags": {
+    "border_block": [
+      {
+        "stripe": "column-header",
+        "term-index": 0
+      },
+      {
+        "stripe": "corner",
+        "term-index": 0
+      },
+      {
+        "stripe": "item",
+        "term-index": 0
+      },
+      {
+        "stripe": "row-header",
+        "term-index": 0
+      }
+    ],
+    "cell_type": [
+      {
+        "stripe": "column-header",
+        "term-index": 0
+      },
+      {
+        "stripe": "corner",
+        "term-index": 0
+      },
+      {
+        "stripe": "item",
+        "term-index": 0
+      },
+      {
+        "stripe": "row-header",
+        "term-index": 0
+      }
+    ],
+    "cmdset": [
+      {
+        "stripe": "1",
+        "term-index": 0
+      },
+      {
+        "stripe": "2",
+        "term-index": 1
+      },
+      {
+        "stripe": "3",
+        "term-index": 2
+      },
+      {
+        "stripe": "4",
+        "term-index": 3
+      },
+      {
+        "stripe": "5",
+        "term-index": 4
+      },
+      {
+        "stripe": "6",
+        "term-index": 5
+      }
+    ],
+    "coleq": [
+      {
+        "stripe": "i2scale_std_fu",
+        "term-index": 1
+      },
+      {
+        "stripe": "invite",
+        "term-index": 1
+      },
+      {
+        "stripe": "test",
+        "term-index": 1
+      }
+    ],
+    "collection": [
+      {
+        "stripe": "primary",
+        "term-index": 0
+      },
+      {
+        "stripe": "sec1",
+        "term-index": 1
+      },
+      {
+        "stripe": "sec2",
+        "term-index": 2
+      }
+    ],
+    "colname": [
+      {
+        "stripe": "c1",
+        "term-index": 7
+      },
+      {
+        "stripe": "c2",
+        "term-index": 3
+      },
+      {
+        "stripe": "c3",
+        "term-index": 4
+      },
+      {
+        "stripe": "c_relatives",
+        "term-index": 3
+      },
+      {
+        "stripe": "female",
+        "term-index": 5
+      },
+      {
+        "stripe": "i2scale_std",
+        "term-index": 4
+      },
+      {
+        "stripe": "0.costarm",
+        "term-index": 1
+      },
+      {
+        "stripe": "1.costarm",
+        "term-index": 1
+      },
+      {
+        "stripe": "r1vs0.costarm",
+        "term-index": 6
+      },
+      {
+        "stripe": "0.navarm",
+        "term-index": 2
+      },
+      {
+        "stripe": "1.navarm",
+        "term-index": 2
+      },
+      {
+        "stripe": "r1vs0.navarm",
+        "term-index": 8
+      }
+    ],
+    "colname_remainder": [
+      {
+        "stripe": "_cons",
+        "term-index": 18446744073709551588
+      }
+    ],
+    "costarm": [
+      {
+        "stripe": "0",
+        "term-index": 0
+      },
+      {
+        "stripe": "1",
+        "term-index": 1
+      }
+    ],
+    "navarm": [
+      {
+        "stripe": "0",
+        "term-index": 0
+      },
+      {
+        "stripe": "1",
+        "term-index": 1
+      }
+    ],
+    "program_class": [
+      {
+        "stripe": "nclass",
+        "term-index": 0
+      },
+      {
+        "stripe": "rclass",
+        "term-index": 0
+      }
+    ],
+    "result": [
+      {
+        "stripe": "F",
+        "term-index": 0
+      },
+      {
+        "stripe": "L",
+        "term-index": 0
+      },
+      {
+        "stripe": "N",
+        "term-index": 0
+      },
+      {
+        "stripe": "_N",
+        "term-index": 0
+      },
+      {
+        "stripe": "_r_b",
+        "term-index": 0
+      },
+      {
+        "stripe": "_r_ci",
+        "term-index": 0
+      },
+      {
+        "stripe": "_r_df",
+        "term-index": 0
+      },
+      {
+        "stripe": "_r_lb",
+        "term-index": 0
+      },
+      {
+        "stripe": "_r_p",
+        "term-index": 0
+      },
+      {
+        "stripe": "_r_se",
+        "term-index": 0
+      },
+      {
+        "stripe": "_r_ub",
+        "term-index": 0
+      },
+      {
+        "stripe": "_r_z",
+        "term-index": 0
+      },
+      {
+        "stripe": "_r_z_abs",
+        "term-index": 0
+      },
+      {
+        "stripe": "at",
+        "term-index": 0
+      },
+      {
+        "stripe": "atdims",
+        "term-index": 0
+      },
+      {
+        "stripe": "atopt1",
+        "term-index": 0
+      },
+      {
+        "stripe": "atspec1",
+        "term-index": 0
+      },
+      {
+        "stripe": "atstats1",
+        "term-index": 0
+      },
+      {
+        "stripe": "chainrule",
+        "term-index": 0
+      },
+      {
+        "stripe": "chi2",
+        "term-index": 0
+      },
+      {
+        "stripe": "cmd",
+        "term-index": 0
+      },
+      {
+        "stripe": "cmd2",
+        "term-index": 0
+      },
+      {
+        "stripe": "cmdline",
+        "term-index": 0
+      },
+      {
+        "stripe": "coef_ci",
+        "term-index": 0
+      },
+      {
+        "stripe": "deriv1",
+        "term-index": 0
+      },
+      {
+        "stripe": "df",
+        "term-index": 0
+      },
+      {
+        "stripe": "df2",
+        "term-index": 0
+      },
+      {
+        "stripe": "df_r",
+        "term-index": 0
+      },
+      {
+        "stripe": "emptycells",
+        "term-index": 0
+      },
+      {
+        "stripe": "error",
+        "term-index": 0
+      },
+      {
+        "stripe": "est_cmd",
+        "term-index": 0
+      },
+      {
+        "stripe": "est_cmdline",
+        "term-index": 0
+      },
+      {
+        "stripe": "est_depvar",
+        "term-index": 0
+      },
+      {
+        "stripe": "expression",
+        "term-index": 0
+      },
+      {
+        "stripe": "is_xb1",
+        "term-index": 0
+      },
+      {
+        "stripe": "j1_1",
+        "term-index": 0
+      },
+      {
+        "stripe": "j2_1",
+        "term-index": 0
+      },
+      {
+        "stripe": "k_at",
+        "term-index": 0
+      },
+      {
+        "stripe": "k_by",
+        "term-index": 0
+      },
+      {
+        "stripe": "k_margins",
+        "term-index": 0
+      },
+      {
+        "stripe": "k_mlist",
+        "term-index": 0
+      },
+      {
+        "stripe": "k_predict",
+        "term-index": 0
+      },
+      {
+        "stripe": "k_terms",
+        "term-index": 0
+      },
+      {
+        "stripe": "level",
+        "term-index": 0
+      },
+      {
+        "stripe": "margins",
+        "term-index": 0
+      },
+      {
+        "stripe": "mcmethod",
+        "term-index": 0
+      },
+      {
+        "stripe": "mlist1",
+        "term-index": 0
+      },
+      {
+        "stripe": "model_vce",
+        "term-index": 0
+      },
+      {
+        "stripe": "num_families",
+        "term-index": 0
+      },
+      {
+        "stripe": "num_obs",
+        "term-index": 0
+      },
+      {
+        "stripe": "numeric",
+        "term-index": 0
+      },
+      {
+        "stripe": "outcomeIsEq1",
+        "term-index": 0
+      },
+      {
+        "stripe": "p",
+        "term-index": 0
+      },
+      {
+        "stripe": "predict1_label",
+        "term-index": 0
+      },
+      {
+        "stripe": "predict_label",
+        "term-index": 0
+      },
+      {
+        "stripe": "properties",
+        "term-index": 0
+      },
+      {
+        "stripe": "table",
+        "term-index": 0
+      },
+      {
+        "stripe": "title",
+        "term-index": 0
+      },
+      {
+        "stripe": "vce",
+        "term-index": 0
+      },
+      {
+        "stripe": "vcetype",
+        "term-index": 0
+      }
+    ],
+    "result_type": [
+      {
+        "stripe": "macro",
+        "term-index": 0
+      },
+      {
+        "stripe": "matrix",
+        "term-index": 0
+      },
+      {
+        "stripe": "scalar",
+        "term-index": 0
+      }
+    ],
+    "row": [
+      {
+        "stripe": "num_families",
+        "term-index": 0
+      }
+    ],
+    "row1": [
+      {
+        "stripe": "num_obs",
+        "term-index": 0
+      }
+    ],
+    "rowheader": [
+      {
+        "stripe": "Difference (cost)",
+        "term-index": 1
+      },
+      {
+        "stripe": "Difference (navigator)",
+        "term-index": 3
+      },
+      {
+        "stripe": "Group means cost",
+        "term-index": 0
+      },
+      {
+        "stripe": "Group means navigator",
+        "term-index": 2
+      }
+    ],
+    "rowname": [
+      {
+        "stripe": "b",
+        "term-index": 1
+      },
+      {
+        "stripe": "crit",
+        "term-index": 8
+      },
+      {
+        "stripe": "df",
+        "term-index": 7
+      },
+      {
+        "stripe": "eform",
+        "term-index": 9
+      },
+      {
+        "stripe": "ll",
+        "term-index": 5
+      },
+      {
+        "stripe": "pvalue",
+        "term-index": 4
+      },
+      {
+        "stripe": "r1",
+        "term-index": 10
+      },
+      {
+        "stripe": "se",
+        "term-index": 2
+      },
+      {
+        "stripe": "t",
+        "term-index": 3
+      },
+      {
+        "stripe": "ul",
+        "term-index": 6
+      },
+      {
+        "stripe": "z",
+        "term-index": 3
+      },
+      {
+        "stripe": "r1vs0.costarm",
+        "term-index": 11
+      },
+      {
+        "stripe": "r1vs0.navarm",
+        "term-index": 12
+      }
+    ]
+  },
+  "ci-level": 95.0,
+  "collection-name": "all"
+}

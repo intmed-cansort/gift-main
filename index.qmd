@@ -1,19 +1,48 @@
----
-title: "About Me"
-about:
-  id: me
-  template: broadside
-  image: img/profile.png
----
+# Front Matter
 
-:::{#me}
+## Supplement to main results paper.
 
-## Goals
+This site provides all analyses done in producing the the Gift Study main results paper, both those presented in the paper and all other analyses done as part of the development of the published material including model checks, exploratory analyses and reviewer requested analyses.  In addition the statistical code used in producing tables, figures and all primary and supplementary analyses is made avaiable.
 
-## Education
+## Published protocol paper
 
-## Experience
+A protocol paper was previously published and is available through open access (@Katz_2025_25_366).
 
-:::
+## Main results paper
 
-Thanks for checking out my web site!
+### Title: Results from The Genetic Information and Family Testing (GIFT) Study: A cluster randomized trial
+Steven J. Katz, M.D., M.P.H1,2*, Timothy P. Hofer, M.D.1*, Paul Abrahamse, M.A.1, Rebecca R. Courser M.P.H.1, Rachel Hodan, M.S. 6, Rachel S. Tocco, M.A.3, Sonia Rios-Ventura B.A.4, Kevin C. Ward, Ph.D. 7, Ann S. Hamilton, Ph.D.8, Melissa K. Frey M.D., M.S.9, Lawrence C. An M.D.1*, Allison W. Kurian, M.D., M.Sc.4,5*
+* Katz SJ, Hofer TP, An LC, and Kurian AW contributed equally to this work
+
+1 Department of Internal Medicine, University of Michigan Ann Arbor MI.  
+2 Department of Health Management and Policy, School of Public Health and Department of Internal Medicine, University of Michigan Ann Arbor, MI  
+3 Department of Psychiatry, University of Michigan Ann Arbor, MI.  
+4 Department of Medicine, Stanford University, Stanford, California  
+5 Department of Epidemiology and Population Health, Stanford University, Stanford, California  
+6 Cancer Genetics, Stanford Health Care, Stanford, California  
+7 Department of Epidemiology, Rollins School of Public Health, Emory University, Atlanta, Georgia  
+8 Department of Preventive Medicine, University of Southern California Los Angeles, Ca.  
+9 Department of Obstetrics and Gynecology, Weill Cornell Medicine, New York, NY.  
+
+Publication citation: pending
+
+### Funding
+NCI U01CA254822, American Cancer Society RSG-20-025-01, NCI P30CA046592 to the University of Michigan, and R01CA283207 to Stanford University. The collection of cancer incidence data used in this study was supported by the California Department of Public Health pursuant to California Health and Safety Code Section 103885; Centers for Disease Control and Prevention’s (CDC) National Program of Cancer Registries, under cooperative agreement 1NU58DP007156; the National Cancer Institute’s Surveillance, Epidemiology and End Results Program under contract HHSN261201800032I awarded to the University of California, San Francisco, contract HHSN261201800015I awarded to the University of Southern California, and contract HHSN261201800009I awarded to the Public Health Institute. The collection of cancer incidence data in Georgia was supported by contract HHSN261201800003I, Task Order HHSN26100001 from the NCI and cooperative agreement 6NU58DP006352-05-01 from the CDC.
+
+### Authors' contributions
+Dr. Katz had full access to all the data in the study and takes responsibility for the integrity of the data and the accuracy of the data analysis.  
+Concept and design: Kurian, An, Hofer   
+Acquisition, analysis, or interpretation of data: All authors.  
+Drafting of the manuscript: Katz, Kurian, Hofer  
+Critical revision of the manuscript for important intellectual content: Katz, Kurian, An, Hofer, Abrahamse, Ward, Hamilton, Hodan, Tocco, Rios-Ventura, Courser, and Frey  
+Statistical analysis: Hofer, Abrahamse, Katz.  
+Obtained funding: Katz, Kurian, An  
+
+### Acknowledgements
+We also acknowledge the invaluable contributions of the U-M Center for Health Communications Research staff – including Stefanie Goodell, Shelly Chang, Diane Egleston, Elizabeth Hershey, Colleen Leh, Ian Moore, Jeffrey Rosczyk, and Jill Solomon – for their work building and supporting a robust family communication and genetic testing platform. We acknowledge the staff of the Georgia Center for Cancer Statistics at Emory University, including Richard Claxton and the University of Southern California, including Denise Modjeski, Karen Dominguez, Hannah Rosenthal, Cynthia Quince, Jennifer Zelaya and Virginia Parker for their work recruiting the patient sample for this ambitious study. We acknowledge the team at Color Health, including Hannah Hoban for their partnership in offering access to low-cost genetic testing to relatives enrolled in the study. 
+
+### Trial Registration: 
+NCT05552664 registered at Clincaltrials.gov September 20, 2022
+
+## References
+

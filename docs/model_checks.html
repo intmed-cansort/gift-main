@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>11&nbsp; Model checks – Gift Study-Supplement</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./post_hoc.html" rel="next">
+<link href="./main_results_table.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-4608c2b11001843f073d34686ddd1e3e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./model_checks.html">Additional analyses</a></li><li class="breadcrumb-item"><a href="./model_checks.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Model checks</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Gift Study-Supplement</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/intmed-cansort/gift-main" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Front Matter</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./study_pop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Study population and sampling</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./flow_chart.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Consort Flow Diagram</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./interventions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Interventions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Data &amp; Descriptives</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Data preparation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./descriptives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Descriptives</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Protocol Results</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./main.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Testing - Primary</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./invitation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Invitation - Secondary</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./communication.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Communication - Secondary</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./main_results_table.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Combined results</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Additional analyses</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./model_checks.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Model checks</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./post_hoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Exploratory</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Reviewer requested</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./num_denom.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Numerator and deonominators</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./interactions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Intervention interactions</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#testing-relative-functional-form" id="toc-testing-relative-functional-form" class="nav-link active" data-scroll-target="#testing-relative-functional-form"><span class="header-section-number">11.0.1</span> Testing relative functional form</a>
+  <ul>
+  <li><a href="#empirical-fit-vs-linear-fit-on-log-odds-scale" id="toc-empirical-fit-vs-linear-fit-on-log-odds-scale" class="nav-link" data-scroll-target="#empirical-fit-vs-linear-fit-on-log-odds-scale">Empirical fit vs linear fit on log odds scale</a></li>
+  </ul></li>
+  <li><a href="#checking-correlation-of-covariates-and-random-effects" id="toc-checking-correlation-of-covariates-and-random-effects" class="nav-link" data-scroll-target="#checking-correlation-of-covariates-and-random-effects"><span class="header-section-number">11.0.2</span> Checking correlation of covariates and random effects</a>
+  <ul>
+  <li><a href="#odds-ratios" id="toc-odds-ratios" class="nav-link" data-scroll-target="#odds-ratios">Odds ratios</a></li>
+  <li><a href="#graph-of-marginal-probability-of-testing-by-relative-sex-as-function-of-cluster-family-size" id="toc-graph-of-marginal-probability-of-testing-by-relative-sex-as-function-of-cluster-family-size" class="nav-link" data-scroll-target="#graph-of-marginal-probability-of-testing-by-relative-sex-as-function-of-cluster-family-size">Graph of marginal probability of testing by relative sex as function of cluster family size</a></li>
+  </ul></li>
+  <li><a href="#distribution-of-random-effects-for-testing" id="toc-distribution-of-random-effects-for-testing" class="nav-link" data-scroll-target="#distribution-of-random-effects-for-testing"><span class="header-section-number">11.0.3</span> Distribution of random effects for testing</a></li>
+  <li><a href="#distribution-of-random-effects-for-invitation" id="toc-distribution-of-random-effects-for-invitation" class="nav-link" data-scroll-target="#distribution-of-random-effects-for-invitation"><span class="header-section-number">11.0.4</span> Distribution of random effects for invitation</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/intmed-cansort/gift-main/blob/main/model_checks.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./model_checks.html">Additional analyses</a></li><li class="breadcrumb-item"><a href="./model_checks.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Model checks</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Model checks</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="testing-relative-functional-form" class="level3" data-number="11.0.1">
+<h3 data-number="11.0.1" class="anchored" data-anchor-id="testing-relative-functional-form"><span class="header-section-number">11.0.1</span> Testing relative functional form</h3>
+<p>Family size is highly predictive of testing. We checked the functional form by including a quadratic or a log term and then at the empirical fit on the log odds scale for quantiles of family size and compared it to the linear fit of</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Regression output checking quadratic and log terms
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="cell">
+<details class="code-fold">
+<summary>code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">run</span> sub/load_data.<span class="kw">do</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">run</span>  sub/create_vars.<span class="kw">do</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">qui</span> {</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">xtile</span> dec_rel=relatives ,nq(5)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="kw">replace</span> c_relatives=c_relatives+2.6</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="kw">gen</span> lnrelative=<span class="fu">ln</span>(c_relatives)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>melogit <span class="kw">test</span> i.costarm i.navarm c_relatives lnrelative i2scale_std <span class="co">///</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    female || access_code: , <span class="kw">nolog</span> <span class="kw">eform</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="kw">predict</span> <span class="kw">xb</span>, <span class="kw">xb</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>* lnrelative <span class="kw">not</span> significant</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>melogit <span class="kw">test</span> i.costarm i.navarm c_relatives lnrelative i2scale_std <span class="co">///</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    female || access_code: , <span class="kw">nolog</span> <span class="kw">eform</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>* quadratic <span class="kw">not</span> significant</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>melogit <span class="kw">test</span> i.costarm i.navarm c.c_relatives##c.c_relatives i2scale_std <span class="co">///</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    female || access_code: , <span class="kw">nolog</span> <span class="kw">eform</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>* <span class="kw">compare</span> linear to empirical <span class="kw">fit</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="kw">qui</span> melogit <span class="kw">test</span> i.costarm i.navarm i.dec_rel i2scale_std <span class="co">///</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    female || access_code: , <span class="kw">nolog</span> <span class="kw">eform</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="kw">qui</span> margins i.dec_rel,<span class="kw">predict</span>(<span class="kw">xb</span>)</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>marginsplot,<span class="bn">addplot</span>(<span class="kw">lfit</span> <span class="kw">xb</span> dec_rel, <span class="bn">legend</span>(<span class="kw">order</span>(3 <span class="st">"linear fit"</span> <span class="co">///</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    2 <span class="st">"empirical fit"</span> ))) <span class="co">///</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="bn">title</span>(Predictive margins <span class="kw">of</span> quantiles <span class="kw">of</span> <span class="kw">family</span> <span class="kw">size</span> with 95% CIs)</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="kw">qui</span> <span class="kw">graph</span> <span class="kw">export</span> img/fam_size_quantiles.png,<span class="kw">replace</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Mixed-effects logistic regression               Number of obs     =      4,946
+Group variable: access_code                     Number of groups  =        414
+
+                                                Obs per group:
+                                                              min =          1
+                                                              avg =       11.9
+                                                              max =         91
+
+Integration method: mvaghermite                 Integration pts.  =          7
+
+                                                Wald chi2(6)      =      37.10
+Log likelihood = -941.08906                     Prob &gt; chi2       =     0.0000
+------------------------------------------------------------------------------
+        test |     exp(b)   Std. err.      z    P&gt;|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+   1.costarm |   2.498218   .5852906     3.91   0.000     1.578367    3.954145
+    1.navarm |   1.324863   .3039671     1.23   0.220     .8450397    2.077134
+ c_relatives |   .7761683   .0832417    -2.36   0.018     .6290237    .9577336
+  lnrelative |   1.059649   .2256804     0.27   0.786     .6980336      1.6086
+ i2scale_std |     1.0222   .1207791     0.19   0.853     .8108892    1.288578
+      female |   1.555947    .218964     3.14   0.002     1.180885    2.050133
+       _cons |   .0196946   .0063853   -12.11   0.000     .0104322     .037181
+-------------+----------------------------------------------------------------
+access_code  |
+   var(_cons)|   2.292036    .451409                      1.558046    3.371808
+------------------------------------------------------------------------------
+Note: Estimates are transformed only in the first equation.
+LR test vs. logistic model: chibar2(01) = 143.15      Prob &gt;= chibar2 = 0.0000
+
+
+Mixed-effects logistic regression               Number of obs     =      4,946
+Group variable: access_code                     Number of groups  =        414
+
+                                                Obs per group:
+                                                              min =          1
+                                                              avg =       11.9
+                                                              max =         91
+
+Integration method: mvaghermite                 Integration pts.  =          7
+
+                                                Wald chi2(6)      =      36.53
+Log likelihood = -941.04524                     Prob &gt; chi2       =     0.0000
+------------------------------------------------------------------------------
+        test |     exp(b)   Std. err.      z    P&gt;|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+   1.costarm |   2.499471   .5857512     3.91   0.000     1.578952    3.956646
+    1.navarm |   1.327965   .3047973     1.24   0.217     .8468702    2.082361
+ c_relatives |   .8411695   .1371012    -1.06   0.289     .6111491    1.157763
+             |
+          c. |
+ c_relatives#|
+          c. |
+ c_relatives |    .993154   .0174887    -0.39   0.696     .9594616     1.02803
+             |
+ i2scale_std |   1.023435   .1209206     0.20   0.845     .8118759    1.290124
+      female |   1.557269    .219102     3.15   0.002      1.18196    2.051751
+       _cons |   .0178293   .0069618   -10.31   0.000      .008294    .0383269
+-------------+----------------------------------------------------------------
+access_code  |
+   var(_cons)|   2.292597   .4514892                      1.558467    3.372545
+------------------------------------------------------------------------------
+Note: Estimates are transformed only in the first equation.
+LR test vs. logistic model: chibar2(01) = 143.09      Prob &gt;= chibar2 = 0.0000
+
+
+
+
+Variables that uniquely identify margins: dec_rel</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section id="empirical-fit-vs-linear-fit-on-log-odds-scale" class="level4">
+<h4 class="anchored" data-anchor-id="empirical-fit-vs-linear-fit-on-log-odds-scale">Empirical fit vs linear fit on log odds scale</h4>
+<p><img src="img/fam_size_quantiles.png" class="img-fluid"></p>
+<p>The linear fit seems like a reasonable functional form of the model</p>
+</section>
+</section>
+<section id="checking-correlation-of-covariates-and-random-effects" class="level3" data-number="11.0.2">
+<h3 data-number="11.0.2" class="anchored" data-anchor-id="checking-correlation-of-covariates-and-random-effects"><span class="header-section-number">11.0.2</span> Checking correlation of covariates and random effects</h3>
+<p>The model depends on independence of subject-level covariates and the random effects. One way to check for this is to include the cluster-mean of a subject level covariate and test its significance.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Regression output with cluster-mean of proportion female relatives included
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="cell">
+<details class="code-fold">
+<summary>code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">run</span> sub/load_data.<span class="kw">do</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="kw">run</span> sub/create_vars.<span class="kw">do</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>melogit <span class="kw">test</span> i.costarm i.navarm c_relatives i2scale_std <span class="co">///</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    female m_female || access_code: , <span class="kw">nolog</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>* Table <span class="kw">of</span> results</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="kw">qui</span> {</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>collect <span class="kw">clear</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>collect _r_b _r_ci: <span class="kw">qui</span> melogit,<span class="kw">or</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>collect addtags rowheader[<span class="st">"Interventions"</span>], fortags(colname[i.costarm i.navarm])</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>collect addtags rowheader[<span class="st">"Covariates"</span>], <span class="co">///</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    fortags(colname[c_relatives i2scale_std female m_female])</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>collect layout (rowheader#colname) (result)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>collect <span class="kw">label</span> <span class="kw">levels</span> result _r_b <span class="st">"Odds ratio"</span> ,modify</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>collect <span class="kw">label</span> <span class="kw">levels</span> colname c_relatives <span class="st">"Larger family(per 5 relatives)"</span> <span class="co">///</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    i2scale_std <span class="st">"Family communication (per s.d.)"</span> <span class="co">///</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>    female <span class="st">"Female relative"</span> m_female <span class="st">"Family %female"</span>,modify</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>collect style showbase <span class="kw">off</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>collect style cell, nformat(%5.2f)</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>collect style cell result[_r_ci], sformat(<span class="st">"[%s]"</span>) cidelimiter(<span class="st">", "</span>)</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>collect style cell result[_r_b], halign(<span class="bn">center</span>)</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>collect style cell border_block, border(right, pattern(nil))</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>collect <span class="bn">title</span> <span class="st">"Table: Testing cluster-level female mean "</span></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>collect <span class="kw">export</span> sub/table_test_m_female.md,<span class="kw">replace</span></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>margins , <span class="fu">at</span>(m_female=(.05(.15).95) female=(0,1) c_relatives=0) </span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>marginsplot</span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a><span class="kw">graph</span> <span class="kw">export</span> <span class="st">"img/female_and_m_female.png"</span>,<span class="kw">replace</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Mixed-effects logistic regression               Number of obs     =      4,946
+Group variable: access_code                     Number of groups  =        414
+
+                                                Obs per group:
+                                                              min =          1
+                                                              avg =       11.9
+                                                              max =         91
+
+Integration method: mvaghermite                 Integration pts.  =          7
+
+                                                Wald chi2(6)      =      39.90
+Log likelihood = -939.82113                     Prob &gt; chi2       =     0.0000
+------------------------------------------------------------------------------
+        test | Coefficient  Std. err.      z    P&gt;|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+   1.costarm |   .9281669    .233972     3.97   0.000     .4695903    1.386744
+    1.navarm |   .2834467   .2288041     1.24   0.215     -.165001    .7318944
+ c_relatives |  -.2313176   .0725709    -3.19   0.001     -.373554   -.0890812
+ i2scale_std |    .038933   .1180377     0.33   0.742    -.1924167    .2702827
+      female |   .4851989   .1431398     3.39   0.001       .20465    .7657478
+    m_female |  -1.224534   .7591409    -1.61   0.107    -2.712423    .2633547
+       _cons |  -3.944874   .4424202    -8.92   0.000    -4.812002   -3.077747
+-------------+----------------------------------------------------------------
+access_code  |
+   var(_cons)|   2.269336   .4450844                      1.545087    3.333073
+------------------------------------------------------------------------------
+LR test vs. logistic model: chibar2(01) = 142.72      Prob &gt;= chibar2 = 0.0000
+
+
+
+Predictive margins                                       Number of obs = 4,946
+Model VCE: OIM
+
+Expression: Marginal predicted mean, predict()
+1._at:  c_relatives =   0
+        female      =   0
+        m_female    = .05
+2._at:  c_relatives =   0
+        female      =   0
+        m_female    =  .2
+3._at:  c_relatives =   0
+        female      =   0
+        m_female    = .35
+4._at:  c_relatives =   0
+        female      =   0
+        m_female    =  .5
+5._at:  c_relatives =   0
+        female      =   0
+        m_female    = .65
+6._at:  c_relatives =   0
+        female      =   0
+        m_female    =  .8
+7._at:  c_relatives =   0
+        female      =   0
+        m_female    = .95
+8._at:  c_relatives =   0
+        female      =   1
+        m_female    = .05
+9._at:  c_relatives =   0
+        female      =   1
+        m_female    =  .2
+10._at: c_relatives =   0
+        female      =   1
+        m_female    = .35
+11._at: c_relatives =   0
+        female      =   1
+        m_female    =  .5
+12._at: c_relatives =   0
+        female      =   1
+        m_female    = .65
+13._at: c_relatives =   0
+        female      =   1
+        m_female    =  .8
+14._at: c_relatives =   0
+        female      =   1
+        m_female    = .95
+
+------------------------------------------------------------------------------
+             |            Delta-method
+             |     Margin   std. err.      z    P&gt;|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+         _at |
+          1  |   .0758848   .0209037     3.63   0.000     .0349143    .1168553
+          2  |   .0659383   .0135287     4.87   0.000     .0394226    .0924541
+          3  |   .0571072   .0082627     6.91   0.000     .0409126    .0733018
+          4  |   .0493026   .0059528     8.28   0.000     .0376354    .0609698
+          5  |   .0424357   .0067269     6.31   0.000     .0292511    .0556202
+          6  |   .0364191   .0085099     4.28   0.000       .01974    .0530981
+          7  |   .0311689   .0100944     3.09   0.002     .0113841    .0509536
+          8  |   .1081462   .0291129     3.71   0.000      .051086    .1652064
+          9  |   .0948548   .0191592     4.95   0.000     .0573035    .1324062
+         10  |   .0828932   .0115422     7.18   0.000      .060271    .1055155
+         11  |   .0721857   .0073947     9.76   0.000     .0576923     .086679
+         12  |   .0626491   .0080035     7.83   0.000     .0469625    .0783357
+         13  |   .0541962   .0107037     5.06   0.000     .0332174     .075175
+         14  |   .0467379   .0132697     3.52   0.000     .0207298    .0727459
+------------------------------------------------------------------------------
+
+
+Variables that uniquely identify margins: m_female female
+
+file img/female_and_m_female.png written in PNG format</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section id="odds-ratios" class="level5">
+<h5 class="anchored" data-anchor-id="odds-ratios">Odds ratios</h5>
+<table class="caption-top table">
+<caption>Testing cluster-level female mean</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th>Odds ratio</th>
+<th>95% CI</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Interventions</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Free-testing (vs low-cost)=1</td>
+<td>2.53</td>
+<td>[1.60, 4.00]</td>
+</tr>
+<tr class="odd">
+<td>Navigator (vs none)=1</td>
+<td>1.33</td>
+<td>[0.85, 2.08]</td>
+</tr>
+<tr class="even">
+<td>Covariates</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Larger family(per 5 relatives)</td>
+<td>0.79</td>
+<td>[0.69, 0.91]</td>
+</tr>
+<tr class="even">
+<td>Family communication (per s.d.)</td>
+<td>1.04</td>
+<td>[0.82, 1.31]</td>
+</tr>
+<tr class="odd">
+<td>Female relative</td>
+<td>1.62</td>
+<td>[1.23, 2.15]</td>
+</tr>
+<tr class="even">
+<td>Family %female</td>
+<td>0.29</td>
+<td>[0.07, 1.30]</td>
+</tr>
+</tbody>
+</table>
+<p>The coefficient for the mean family proportion of female relatives was not significant which provides some evidence for the assumption of independence of subject-level covariates and the random effects. However the point estimate is substantial with a confidence interval largely below one. However the point estimates of the intervention effects are reassuringly not affected by including this variable.</p>
+</section>
+<section id="graph-of-marginal-probability-of-testing-by-relative-sex-as-function-of-cluster-family-size" class="level5">
+<h5 class="anchored" data-anchor-id="graph-of-marginal-probability-of-testing-by-relative-sex-as-function-of-cluster-family-size">Graph of marginal probability of testing by relative sex as function of cluster family size</h5>
+<p>We can see the relationship of testing to mean family proportion of female relatives and individual female sex from this regression in the graph below on the probability scale averaging over the other coefficients and family size.</p>
+<p><a href="img/female_and_m_female.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img/female_and_m_female.png" class="img-fluid"></a></p>
+</section>
+</section>
+<section id="distribution-of-random-effects-for-testing" class="level3" data-number="11.0.3">
+<h3 data-number="11.0.3" class="anchored" data-anchor-id="distribution-of-random-effects-for-testing"><span class="header-section-number">11.0.3</span> Distribution of random effects for testing</h3>
+<p>Generalized multilevel models also make an assumption of normally distributed random effects.</p>
+<p>For testing, given the descriptive data showing substantial numbers of people with 0 testing we suspect the assumption is moderately violated.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">run</span> sub/load_data.<span class="kw">do</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="kw">run</span> sub/create_vars.<span class="kw">do</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>* Full <span class="kw">model</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="kw">qui</span> melogit <span class="kw">test</span> i.costarm i.navarm c_relatives i2scale_std <span class="co">///</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    female || access_code: , <span class="kw">eform</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>* Caterpillar <span class="kw">graph</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="kw">qui</span> <span class="kw">predict</span> re_effect,<span class="kw">reffects</span> ebmeans reses(re_ses)</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="kw">qnorm</span> re_effect</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="kw">qui</span> <span class="kw">graph</span> <span class="kw">export</span> img/test_re_dist.png, <span class="kw">replace</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p><img src="img/test_re_dist.png" class="img-fluid"></p>
+<p>As expected there is departure from normality at the lower end of the random effects scale. However, work by McCulloch (<span class="citation" data-cites="McCulloch_2011_67_270">McCulloch and Neuhaus (<a href="#ref-McCulloch_2011_67_270" role="doc-biblioref">2011</a>)</span>) and Neuhaus (<span class="citation" data-cites="Neuhaus_2012_32_2419">Neuhaus, McCulloch, and Boylan (<a href="#ref-Neuhaus_2012_32_2419" role="doc-biblioref">2012</a>)</span>) and echoed by Rabe-Hesketh &amp; Skrondal (<span class="citation" data-cites="Rabe-Hesketh_2022">Rabe-Hesketh and Skrondal (<a href="#ref-Rabe-Hesketh_2022" role="doc-biblioref">2022</a>)</span>) suggest that these departures from normality have minimal effect on the fixed effects estimates or the covereage of the confidence intervals.</p>
+</section>
+<section id="distribution-of-random-effects-for-invitation" class="level3" data-number="11.0.4">
+<h3 data-number="11.0.4" class="anchored" data-anchor-id="distribution-of-random-effects-for-invitation"><span class="header-section-number">11.0.4</span> Distribution of random effects for invitation</h3>
+<p>We see a similar distribution for invitation.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">run</span> sub/load_data.<span class="kw">do</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="kw">run</span> sub/create_vars.<span class="kw">do</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>* Full <span class="kw">model</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="kw">qui</span> melogit invite i.costarm i.navarm c_relatives i2scale_std <span class="co">///</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    female || access_code: , <span class="kw">eform</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>* Caterpillar <span class="kw">graph</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="kw">qui</span> <span class="kw">predict</span> re_effect,<span class="kw">reffects</span> ebmeans reses(re_ses)</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="kw">qnorm</span> re_effect</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="kw">qui</span> <span class="kw">graph</span> <span class="kw">export</span> img/invite_re_dist.png, <span class="kw">replace</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p><img src="img/invite_re_dist.png" class="img-fluid"></p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-McCulloch_2011_67_270" class="csl-entry" role="listitem">
+McCulloch, Charles E, and John M Neuhaus. 2011. <span>“Prediction of Random Effects in Linear and Generalized Linear Models Under Model Misspecification.”</span> <em>Biometrics</em> 67 (1): 270–79. <a href="https://doi.org/10.1111/j.1541-0420.2010.01435.x">https://doi.org/10.1111/j.1541-0420.2010.01435.x</a>.
+</div>
+<div id="ref-Neuhaus_2012_32_2419" class="csl-entry" role="listitem">
+Neuhaus, John M., Charles E. McCulloch, and Ross Boylan. 2012. <span>“Estimation of Covariate Effects in Generalized Linear Mixed Models with a Misspecified Distribution of Random Intercepts and Slopes.”</span> <em>Statistics in Medicine</em> 32 (14): 2419–29. <a href="https://doi.org/10.1002/sim.5682">https://doi.org/10.1002/sim.5682</a>.
+</div>
+<div id="ref-Rabe-Hesketh_2022" class="csl-entry" role="listitem">
+Rabe-Hesketh, Sophia, and Anders Skrondal. 2022. <em>Multilevel and Longitudinal Modeling Using <span>Stata</span></em>. Fourth edition. College Station, Texas: Stata Press.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/github\.com\/intmed-cansort\/gift-main");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./main_results_table.html" class="pagination-link" aria-label="Combined results">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Combined results</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./post_hoc.html" class="pagination-link" aria-label="Exploratory">
+        <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Exploratory</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Copyright 2025, Timothy Hofer (for the CANSORT team)</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/intmed-cansort/gift-main/blob/main/model_checks.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org/">Quarto</a></p>
+</div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

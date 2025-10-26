@@ -1,0 +1,1 @@
+Sitemap: https://github.com/intmed-cansort/gift-main/sitemap.xml

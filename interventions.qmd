@@ -1,0 +1,61 @@
+---
+title: Interventions
+---
+
+The website guided patients through features of the intervention
+platform. Each feature was presented, and the patient was able to choose
+how deeply to engage with each one. Features available to patients in
+all four study arms included: 1) Key facts and education about genetics,
+cancer risk, and the role of genetic counseling and testing for families
+with a history of cancer; 2) The ability to invite family members via
+personalized email to join the study and receive genetic testing via our
+test partner, Color Health (Burlingame, CA); and 3) A study "dashboard"
+that gave enrolled patients the ability to monitor their progress
+inviting relatives into the study and review communication tips and
+strategies to follow-up with their relatives. Patients randomized to
+Study Arms 3 and 4 also had direct access to the Stanford Family Health
+Navigator, via phone, email, and/or video conference supported by the
+clinical cancer genetics research site based at Stanford University. The
+Navigator could help them use the website, answer questions, invite
+family members to participate in the study and follow up with patients
+proactively to encourage them to complete study tasks.
+
+**Patient (cluster) intervention:** Enrolled patients had access to the
+online GIFT Study website for up to 6 months and could access it as many
+times as they wanted. The website collected information from patients
+about their health and their family and was lightly tailored based on
+information provided by the patients on the PIC survey (e.g., "You told
+us you have three sisters").
+
+**Relative intervention:** For the relative-level intervention,
+relatives first completed a brief eligibility screener. Enrolled
+relatives were guided through an online baseline survey to collect
+information needed to tailor their intervention experience and were then
+given access to the online GIFT Study website for a total of six months.
+As for the patient participants, the website guided enrolled relatives
+with the intervention platform, with each feature presented and the
+relative able to choose how deeply to engage with each one. Features
+available to relatives in all four study arms included: 1) Key facts and
+education about genetics and how it relates to cancer risk, the
+different types of genetic test results and their meaning, and privacy
+regarding genetic test results; 2) An exercise designed to help them
+consider their reasons for getting genetic testing (including commonly
+endorsed motivational and hesitation statements); 3) A brief description
+of the Color Health genetic testing process and the ability to follow a
+unique link to order free (\$0) or low-cost (\$50) genetic testing from
+Color (according to their study arm) in the first 90 days only; and 4)
+The ability to consent to share the fact that they have enrolled in the
+study with the patient who invited them to join.
+
+The study website contained a link to the Color website that embedded a
+unique Color token directly in the URL; it indicated that they were
+enrolled in the GIFT Study and the charge to the relative participant
+for their genetic test (\$50 vs free). No study participant personal
+identifiable or health information was shared with Color. Relatives who
+clicked the link to order genetic testing followed Color's standard
+procedures for ordering a genetic test, which included informed consent
+for the testing procedure. Relatives in family clusters randomized to
+Study Arms 3 and 4 had access to the Family Health Navigator, via
+phone/email/ videoconference (as described above for the patient
+intervention). Details of the Data Monitoring and Collection procedures
+have been published elsewhere.(@Katz_2025_25_366)

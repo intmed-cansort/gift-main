@@ -1,0 +1,189 @@
+---
+title: Study population and sampling
+---
+
+## Sampling procedure
+
+The GIFT study began with a patient inception cohort survey (PIC Survey)
+from which we determined eligibility for the clinical intervention
+trial. Georgia and California SEER registry leads at Emory University
+and University of Southern California identified an inception cohort of
+eligible patients (via Information Management Services Calverton MD @Katz_2025_25_366)
+aged 18 and older, diagnosed with a broad array of cancers in 2018-2019,
+who linked (via the ongoing Georgia California Genetic Testing Linkage
+Initiative @Katz_2025_25_366) to germline testing, and who were found to have a
+pathogenic variant (PV) in one of 27 cancer susceptibility genes and
+were alive at the time of selection (n=4300). 
+
+**Supplemental Table 1** lists the genes included in the study, grouped by cancer susceptibility
+and guidelines for prevention and control at the time of selection of
+the patient sample.(@Daly_2021_19_77) The SEER registries provided a third-party
+honest broker, Information Management Services, Inc. (IMS; the honest
+broker for the National Cancer Institute (NCI) Surveillance Program),
+with the de-identified clinical datasets maintained by the registries
+from the Georgia California Genetic Testing Linkage Initiative. IMS
+sampled an inception cohort of patients from this file using both
+clinical and genetic test result data according to the study eligibility
+criteria. IMS "salted" the sample with an additional 5% patients who did
+not link to a test result, which ensured that registry field teams did
+not know whether a given patient was tested or not, nor the result of
+any genetic test. After salting, IMS returned the patient IDs of the
+sampled individuals to the respective registry, with no information
+regarding genetic test status. Inclusion criteria for the Patient
+Inception Cohort (PIC) survey and subsequent invitation to the trial
+were given in the main text.  
+
+**Supplemental Table 2** lists the enrolled population characteristics
+
+## [Supplemental Table 1 Genes included in the study]{.underline}
+
++----------------------------------------------------------------------------------+
+| **Table 1. Pathogenic variants (PV) grouped by cancer susceptibility and         |
+| guidelines for prevention and control at the time of selection of the patient    |
+| sample**                                                                         |
++=========================+==========================+=============================+
+| **Cancer                | **Current guidelines for | **Genes (PV)**              |
+| Susceptibility**        | prevention and control** |                             |
++-------------------------+--------------------------+-----------------------------+
+| **Breast cancer**       | Annual screening breast  | *ATM*, *BRCA1*, *BRCA2*,    |
+|                         | magnetic resonance       | *CDH1*, *CHEK2*, *PALB2*,   |
+|                         | imaging                  | *PTEN*, *STK11*, *TP53;*    |
+|                         |                          | consider for *BARD1, BRIP1, |
+|                         |                          | RAD51C, RAD51D*             |
+|                         +--------------------------+-----------------------------+
+|                         | Consider risk-reducing   | *BRCA1*, *BRCA2*, *PALB2*,  |
+|                         | mastectomy               | *PTEN*, *STK11*, *TP53*     |
++-------------------------+--------------------------+-----------------------------+
+| **Colorectal cancer     | Earlier and more         | *APC, BMPR1A, CHEK2,        |
+| and/or other            | frequent (every 1-5      | EPCAM*, *GREM1, MLH1, MSH2, |
+| gastrointestinal        | years) colonoscopy       | MSH6, POLD1, POLE, PTEN,    |
+| cancers (e.g., gastric, | and/or endoscopy         | SMAD4, STK11, TP53*         |
+| esophageal junction)**  |                          |                             |
+|                         +--------------------------+-----------------------------+
+|                         | Risk-reducing colectomy  | *APC*                       |
+|                         +--------------------------+-----------------------------+
+|                         | Risk-reducing            | *CDH1*                      |
+|                         | gastrectomy              |                             |
++-------------------------+--------------------------+-----------------------------+
+| **Ovarian and/or        | Risk-reducing            | *BRCA1, BRCA2, BRIP1,       |
+| endometrial cancer**    | salpingo-oophorectomy    | EPCAM, MLH1, MSH2, MSH6,    |
+|                         | and/or hysterectomy      | PTEN, RAD51C, RAD51D,       |
+|                         |                          | STK11*                      |
++-------------------------+--------------------------+-----------------------------+
+| **Prostate cancer**     | Earlier screening with   | *BRCA1, BRCA2;* consider    |
+|                         | annual PSA and clinical  | for *ATM, CHEK2, PALB2,*    |
+|                         | examination              | and others                  |
++-------------------------+--------------------------+-----------------------------+
+| **Pancreatic cancer**   | Consider annual          | *ATM, BRCA1, BRCA2, CDKN2A, |
+|                         | screening protocols      | EPCAM, MLH1, MSH2, MSH6,    |
+|                         | including endoscopic     | PALB2, STK11, TP53*         |
+|                         | ultrasound and magnetic  |                             |
+|                         | resonance                |                             |
+|                         | cholangiopancreatography |                             |
++-------------------------+--------------------------+-----------------------------+
+| **Melanoma/other skin   | Annual dermatologic      | *BAP1, BRCA1/2, CDKN2A,     |
+| cancer**                | examination              | CDK4, MITF, PALB2, PTEN,    |
+|                         |                          | TP53, MLH1, MSH2, EPCAM,    |
+|                         |                          | MSH6*                       |
++-------------------------+--------------------------+-----------------------------+
+| **Other cancer sites**  | Other targeted screening | *PTEN, TP53,* others        |
+| (e.g., renal, thyroid,  | (e.g., thyroid           |                             |
+| sarcoma)                | ultrasound, renal        |                             |
+|                         | ultrasound, whole body   |                             |
+|                         | MRI)                     |                             |
++-------------------------+--------------------------+-----------------------------+
+
+## Supplemental Table 2. Characteristics of the enrolled patient population.
+
+  ------------------------------------------------------------------------
+                                                   **N**       **Column
+                                                               Pct**
+  ------------------------------------------------ ----------- -----------
+  **PV Type**                                                   
+
+  HBOC\*                                           340         82%
+
+  Lynch/other GI\*\*                               70          17%
+
+  Other                                            4           1%
+
+  **Cancer Site**                                               
+
+  Breast                                           271         65%
+
+  Colorectal                                       17          4%
+
+  Prostate                                         17          4%
+
+  Other Female\*\*\*                               11          3%
+
+  Other                                            98          24%
+
+  **Sex**                                                       
+
+  Male                                             44          11%
+
+  Female                                           369         89%
+
+  **Race/Ethnicity**                                            
+
+  NH White                                         276         67%
+
+  Black                                            44          11%
+
+  Asian                                            29          7%
+
+  Hispanic                                         62          15%
+
+  Other                                            2           0%
+
+  **Poverty**                                                   
+
+  \<10% poverty                                    314         76%
+
+  10%-19% poverty                                  73          18%
+
+  20%+ poverty                                     26          6%
+
+  **Family Size**                                               
+
+  0-3                                              138         33%
+
+  4-6                                              192         46%
+
+  7+                                               83          20%
+
+  **Age**                                                       
+
+  19-45                                            141         34%
+
+  46-55                                            125         30%
+
+  56-65                                            95          23%
+
+  \>65                                             52          13%
+
+  **Education**                                                 
+
+  High school or less                              38          9%
+
+  Some college                                     110         27%
+
+  College graduate                                 128         32%
+
+  Graduate degree                                  129         32%
+
+  **Proportion of First Degree Relatives Told      88%         
+  About Test Results (%)**                                     
+
+  **Proportion of Second Degree Relatives Told     42%         
+  About Test Results (%)**                                     
+  ------------------------------------------------------------------------
+
+\*BRCA1, BRCA2, ATM, BARD1, BRIP1, CDH1, CHEK2, DICER1, NF1, PALB2,
+PTEN, RAD51C, RAD51D, SMARCA4, STK11, TP53  
+\*\*EPCAM, MLH1, MSH2, MSH6, PMS2, APC, AXIN2, BMPR1A, CDKN2A, GREM1,
+MLH3, MSH3, MUTYH, NTHL1, POLD1, POLE, SMAD4  
+\*\*\* Ovary, Endometrial, Other Gynecological
+
+## References

@@ -1,27 +1,64 @@
 project:
-  type: website
+  type: book
   output-dir: docs
   
-website:
-  title: "MY WEB SITE"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - projects.qmd
-    tools:
-      - icon: twitter
-        href: https://twitter.com/
-      - icon: github
-        href: https://github.com/YOURUSERNAME/YOURREPO
+book:
+  title: "Gift Study-Supplement"
+  author: "TPH"
+  date: "10/1/2025"
+  search: true
+  cover-image: img/gift_logo.png
+  repo-url: https://github.com/intmed-cansort/gift-main
+  site-url: https://github.com/intmed-cansort/gift-main
+  repo-actions: [source]
+  sidebar:
+    collapse-level: 2
+    pinnned: true
+  chapters:
+    - index.qmd
+    - study_pop.qmd
+    - flow_chart.qmd
+    - interventions.qmd
+    - part: "Data & Descriptives"
+      chapters:
+      - data.qmd
+      - descriptives.qmd
+    - part: "Protocol Results"
+      chapters: 
+      - main.qmd
+      - invitation.qmd
+      - communication.qmd
+      - main_results_table.qmd
+    - part: "Additional analyses"
+      chapters:
+      - model_checks.qmd
+      - post_hoc.qmd
+    - part: "Reviewer requested"
+      chapters:
+      - num_denom.qmd
+      - interactions.qmd
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2023, YOUR NAME"
-
+    left: "&copy; Copyright 2025, Timothy Hofer (for the CANSORT team)"
+code-fold: true
+number-depth: 3
+toc-depth: 5
+reference-location: margin
+execute:
+  freeze: auto
 format:
   html:
-    theme: cerulean
-    toc: true
-
+    theme: 
+      - cosmo
+      - custom_doc.scss
+    grid:
+      sidebar-width: 210px
+      body-width: 900px
+    code-fold: true
+    code-summary: "code"
+    sidebar:
+      collapse-level: 3
+      pinned: true
+bibliography: references.bib
 editor: source
 

@@ -1,0 +1,17 @@
+{
+  "hash": "373c18d6db3408a668ef43c4a68c8034",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Combined results\"\n---\n\n\n\n::: {.cell}\n\n```{.stata .cell-code  code-fold=\"true\"}\n* combined table\ncollect clear\ncollect layout, clear\ncollect use sec1 sub/table_invite_result.stjson\n\ncollect use sec2 sub/table_comm_result\ncollect use primary sub/table_primary_result\n\ncollect combine all = primary  sec1 sec2,label(left)\ncollect layout \ncollect composite define coef_ci= _r_b _r_ci,trim\n\ncollect label levels collection primary \"Relatives tested (primary)\" ///\n\tsec1 \"Relatives invited (secondary)\" sec2 \"Communication (secondary)\"\n\t\n*collect label levels result coef_ci   \"Std. devs. [95% CI]\",modify\ncollect layout (rowheader#colname row row1)  (collection#result[coef_ci])\n\n*collect label levels coleq invite \"Invited (proportion)\" test \"Tested (proportion)\" i2scale_std_fu \"Communication (std.dev.)\",modify\n*collect style header result, level(hide)\ncollect notes \"1. The testing and invitation outcomes were assessed at the relative level with relatives clustered within index patients in multilevel models\"\ncollect notes \"2. The comfort with communication outcome was assessed for index patients who responded to a survey 6 months after the intervention and results are presented in units of standard deviations of the scale.\"\ncollect notes \"3. All effects are predicted outcomes averaged over the distribution of the pre-specified covariates for each regression and also averaged over the family effects for the multilevel models.\"\ncollect preview\ncollect title \"Table 1. Intervention and control group means and differences for primary and secondary outcomes\"\nqui collect save sub/table_all_result,replace\nqui collect export sub/table_all_result.html,replace\nqui collect export sub/table_all_result.docx,replace\n```\n:::\n\n\n\n\n![](sub/table_all_result.html){width=\"100%\" height=\"550px\"}\n\n",
+    "supporting": [
+      "main_results_table_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

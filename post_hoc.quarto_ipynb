@@ -1,0 +1,257 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Testing rates by relative degree\n",
+        "\n",
+        "It became obvious in looking at the data that testing varied substantially be whether eligible relatives were first or second degree.  This probably should have been obvious to us ahead of time but we did not include this variable in our group of pre-specified variables.  Nevertheless, for future studies it obviously is useful to consider both the analytic implications of this finding but also consider how to adjust implementation approaches to take account of these differences \n"
+      ],
+      "id": "abe740b8"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "*| eval: true\n",
+        "*| code-fold: true\n",
+        "run load_data.do\n",
+        "run create_vars.do\n",
+        "\n",
+        "qui melogit invite i.degree2 || access_code: , nolog or\n",
+        "est store test2\n",
+        "estat icc\n",
+        "\n",
+        "etable, cstat(_r_b,  nformat(%4.2f)) keep(i.degree2) ///\n",
+        "\tcstat(_r_ci, cidelimiter(\", \") nformat(%4.2f)) ///\n",
+        "\tmstat(ICC=r(icc2)) column(dvlabel) \n",
+        "eststo melogit1_m:margins degree2, post\n",
+        "\n",
+        "\t\n",
+        "qui melogit test i.degree2 || access_code: , nolog or\n",
+        "estat icc\n",
+        "\n",
+        "etable, cstat(_r_b,  nformat(%4.2f)) keep(i.degree2) ///\n",
+        "\tcstat(_r_ci, cidelimiter(\", \") nformat(%4.2f)) ///\n",
+        "\tmstat(ICC=r(icc2)) column(dvlabel) ///\n",
+        "\ttitle(\"Table: Relationship of family degree to invitation and testing\") ///\n",
+        "\tnotes(\"Odds ratio (CI)\") ///\n",
+        "\tappend  eqrecode(test = xb invite = xb) ///\n",
+        "\texport(sub/table_degree_or.html,replace)\n",
+        "\n",
+        "eststo melogit2_m:margins degree2, post\n",
+        "estout melogit2_m melogit1_m using \"sub/table_degree.html\", ///\n",
+        "\tc(b(nostar fmt(2)) ci(par fmt(2)) )  ///\n",
+        "\tlabel coll(\"\" ) mlabel(\"Invitation\" \"Testing\") ///\n",
+        "\tstyle(html) replace top(sub/tab_top.html) bot(sub/tab_bot.html) "
+      ],
+      "id": "56ed85af",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "!{}(sub/table_degree.html){width=\"100%\" height=\"300px\"}\n",
+        "\n",
+        "\n",
+        "### Testing by family size\n",
+        "\n",
+        "Family size is an important baseline predictor of testing\n"
+      ],
+      "id": "e81f9718"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "*| eval: false\n",
+        "*| code-fold: true\n",
+        "run load_data.do\n",
+        "run create_vars.do\n",
+        "* Full model\n",
+        "\n",
+        "qui melogit test i.costarm i.navarm c.relatives i2scale_std ///\n",
+        "\tfemale || access_code: , eform\n",
+        "qui margins costarm,at(relatives=(0(5)40) navarm=0)\n",
+        "marginsplot, ///\n",
+        "\tlegend(order(2 \"No cost testing\" 1 \"Low cost\"))  /// \n",
+        "\tytitle(\"Family genetic testing fraction\") xtitle(family size) ///\n",
+        "\trecastci(rarea) ci1opts(astyle(ci) acolor(blue%20)) ///\n",
+        "\tci2opts(astyle(ci) acolor(red%20)) ///\n",
+        "\ttitle(Predicted effect of no-cost testing by family size)\n",
+        "qui graph export img/test_outcome_by_fam_size.png,replace"
+      ],
+      "id": "3ba7a346",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "![](img/test_outcome_by_fam_size.png)\n",
+        "\n",
+        "\n",
+        "## Invitation by family size and gender\n",
+        "\n",
+        "While neither intervention had a significant impact for the invitation outcome, the invitation rate does vary considerably by family size and the reported gender of the relative.\n"
+      ],
+      "id": "075c382e"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "*| eval: false\n",
+        "*| code-fold: true\n",
+        "run load_data.do\n",
+        "run create_vars.do\n",
+        "* Full model\n",
+        "qui melogit invite i.costarm i.navarm relatives i2scale_std ///\n",
+        "\ti.female || access_code: , eform\n",
+        "qui margins female ,at(relatives=(0(5)40) navarm=0)\n",
+        "marginsplot, ///\n",
+        "\tlegend(order(2 \"female\" 1 \"male\"))  /// \n",
+        "\tytitle(\"Probability of invitation\") xtitle(family size) ///\n",
+        "\trecastci(rarea) ci1opts(astyle(ci) acolor(blue%20)) ///\n",
+        "\tci2opts(astyle(ci) acolor(red%20)) ///\n",
+        "\ttitle(Probability of invitation by family size & reported relative gender)\n",
+        "qui graph export img/invite_outcome_by_fam_size.png,replace"
+      ],
+      "id": "db34fa99",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "![](img/invite_outcome_by_fam_size.png)\n",
+        "\n",
+        "### Heterogeneity in family testing rates\n"
+      ],
+      "id": "82e7558b"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "*| eval: false\n",
+        "*| code-fold: true\n",
+        "run load_data.do\n",
+        "run create_vars.do\n",
+        "* Full model\n",
+        "qui melogit test i.costarm i.navarm c_relatives i2scale_std ///\n",
+        "\tfemale || access_code: , eform\n",
+        "* Caterpillar graph\n",
+        "qui predict re_effect,reffects ebmeans reses(re_ses)\n",
+        "* Generate overall mean family proportion female\n",
+        "sum(female),meanonly\n",
+        "local m_female=r(mean)\n",
+        "* male, control arms:  mean i2 female and relatives\n",
+        "gen re_prob=   invlogit(_b[_cons] + _b[female]*`m_female' + re_effect)\n",
+        "gen re_prob_ul=invlogit(_b[_cons] + _b[female]*`m_female' + re_effect ///\n",
+        "\t+ 1.39*re_ses)\n",
+        "gen re_prob_ll=invlogit(_b[_cons] + _b[female]*`m_female' + re_effect ///\n",
+        "\t- 1.39*re_ses)\n",
+        "* use 1.39 for testing equality of a series of level 2 residuals at 5% signfificance level \n",
+        "* Snijders ML analysis 2nd ED p66 , Goldstein 1995 p175\n",
+        "gen re_prob2=   invlogit(_b[_cons] + _b[female]*`m_female' + re_effect ///\n",
+        "\t+ _b[1.costarm]*1 )\n",
+        "bysort access_code: gen first=_n==1\n",
+        "gsort +re_prob -first\n",
+        "generate rank = sum(first)\n",
+        "twoway rcap re_prob_ul re_prob_ll rank if first==1&mod(rank,2)==0 || ///\n",
+        "\tscatter re_prob rank if first==1&mod(rank,2)==0, ///\n",
+        "\txtitle(\"family rank\") xlab(0(50)400) ytitle(\"Relative probability of testing\") legend(off) ///\n",
+        "\tnote(\"For subject in control condition, with median family size, mean communication and proportion of female relatives\") \n",
+        "qui graph export img/caterpillar.png,replace\n",
+        "twoway line re_prob re_prob2 rank if first==1, ///\n",
+        "\txtitle(\"family rank\") xlab(0(50)400) ///\n",
+        "\tytitle(\"Relative's probability of testing\") ///\n",
+        "\tlegend(order(2 \"No cost testing\" 1 \"Low cost\")) ///\n",
+        "\tnote(\"For relative in control condition, with median family size, mean communication and proportion of female relatives\")\n",
+        "qui graph export img/test_outcome_by_fam_rank.png,replace"
+      ],
+      "id": "0d8acb3f",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "![](img/caterpillar.png)\n",
+        "\n",
+        "There is a lot of variation in predicted testing conditional being in the control condition for both interventions.  These curves would be shifted upward by the odds ratio for each of the interventions.\n",
+        "You also see the very large number of subjects with a low to 0% predicted probability of testing in keeping with the raw data.\n",
+        "\n",
+        "### Heterogeneity in family invitation rates\n"
+      ],
+      "id": "fbc69ec2"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "*| eval: false\n",
+        "*| code-fold: true\n",
+        "run sub/load_data.do\n",
+        "run sub/create_vars.do\n",
+        "* Full model\n",
+        "qui melogit invite i.costarm i.navarm c_relatives i2scale_std ///\n",
+        "\tfemale || access_code: , eform\n",
+        "* Caterpillar graph\n",
+        "qui predict re_effect,reffects ebmeans reses(re_ses)\n",
+        "\n",
+        "* Generate overall mean family proportion female\n",
+        "sum(female),meanonly\n",
+        "local m_female=r(mean)\n",
+        "* male, control arms:  mean i2 female and relatives\n",
+        "gen re_prob=   invlogit(_b[_cons] + _b[female]*`m_female' + re_effect)\n",
+        "gen re_prob_ul=invlogit(_b[_cons] + _b[female]*`m_female' + re_effect ///\n",
+        "\t+ 1.39*re_ses)\n",
+        "gen re_prob_ll=invlogit(_b[_cons] + _b[female]*`m_female' + re_effect ///\n",
+        "\t- 1.39*re_ses)\n",
+        "* use 1.39 for testing equality of a series of level 2 residuals at 5% signfificance level \n",
+        "* Snijders ML analysis 2nd ED p66 , Goldstein 1995 p175\n",
+        "bysort access_code: gen first=_n==1\n",
+        "gsort +re_prob -first\n",
+        "generate rank = sum(first)\n",
+        "qui twoway rcap re_prob_ul re_prob_ll rank if first==1&mod(rank,2)==0 || ///\n",
+        "\tscatter re_prob rank if first==1&mod(rank,2)==0, ///\n",
+        "\txtitle(\"family rank\") xlab(0(50)400) ytitle(\"Family probability of invitation\") legend(off) ///\n",
+        "\tnote(\"For subject in control condition, with median family size, mean communication and proportion of female relatives\") saving(caterpillar,replace)\n",
+        "qui graph export img/invite_caterpillar.png,replace\t"
+      ],
+      "id": "8e5f07e1",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "![](img/invite_caterpillar.png)\n",
+        "This illustrates the even larger amount of variation in predicted invitation conditional on being in the control condition for both interventions.  \n",
+        "You also see the smaller number of subjects with a low to 0% predicted probability of testing in keeping with the raw data.\n",
+        "\n",
+        "The subjects have a considerably higher probability of inviting relatives with the website as compared to the proportion that ultimately get tested.  However, the overall proportion of relatives invited is still under 25%."
+      ],
+      "id": "ca0e89e1"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "nbstata",
+      "language": "stata",
+      "display_name": "Stata (nbstata)",
+      "path": "/Users/thofer/Library/Jupyter/kernels/nbstata"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

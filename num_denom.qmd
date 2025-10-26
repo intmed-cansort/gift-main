@@ -1,0 +1,91 @@
+---
+title: Numerator and deonominators
+---
+
+```{r}
+#| include: false
+stataexe <- "/Applications/StataNow/StataSE.app/Contents/MacOS/stata-se"
+knitr::opts_chunk$set(engine.path=list(stata=stataexe))
+library(Statamarkdown)
+```
+
+Reviewers requested numbers and percentages (numerators and denominators) of eligible and tested.
+
+We had described already in the paper that there were 4946 total eligible relatives across the four arms of the study of whom 948 were invited and 267 were tested.  
+
+We chose a cluster randomized design with adjustment for baseline covariates based on a clinical conceptual framework focused on patients and their families and attention to precision of measuring causal effects.   The causal effects for this design are estimated by predicted probabilities of testing and invitation conditional on covariate values that isolate the comparison of interest.  Given the complexity of the design,  it is not possible to present simple numerators and denominators the way it might be for a multi-arm, non-cluster randomized clinical trial with no baseline covariates. 
+
+However, we can present the unadjusted proportions which are quite similar to the full model proportions.
+
+
+## Testing outcome
+### Cost arm
+```{stata}
+*| eval: true
+*| code-fold: true
+run sub/load_data.do
+qui table costarm,stat(freq) stat(sum test) stat(mean test)
+collect label dim costarm "Cost arm", modify
+collect label levels costarm 0 "Low cost" 1 "Free"
+collect label levels result frequency "Freq." ///
+    frequency      "Elgible relatives(N)" ///
+    mean   "Tested(proportion)" ///
+    total         "Tested(N)" ///
+    , modify
+collect style cell result[mean], nformat(%5.2f)
+collect preview
+```
+
+### Navigation arm
+
+```{stata}
+*| eval: true
+*| code-fold: true
+run sub/load_data.do
+qui table navarm,stat(freq) stat(sum test) stat(mean test)
+collect label dim navarm "Navigator arm", modify
+collect label levels navarm 0 "No Navigator" 1 "Navigator"
+collect label levels result frequency "Freq." ///
+    frequency      "Elgible relatives(N)" ///
+    mean   "Tested(proportion)" ///
+    total         "Tested(N)" ///
+    , modify
+collect style cell result[mean], nformat(%5.2f)
+collect preview
+```
+
+## Invitation outcome
+### Cost arm
+```{stata}
+*| eval: true
+*| code-fold: true
+run sub/load_data.do
+qui table costarm,stat(freq) stat(sum invite) stat(mean invite)
+collect label dim costarm "Cost arm", modify
+collect label levels costarm 0 "Low cost" 1 "Free"
+collect label levels result frequency "Freq." ///
+    frequency      "Elgible relatives(N)" ///
+    mean   "Invited(proportion)" ///
+    total         "Tested(N)" ///
+    , modify
+collect style cell result[mean], nformat(%5.2f)
+collect preview
+```
+
+### Navigation arm
+
+```{stata}
+*| eval: true
+*| code-fold: true
+run sub/load_data.do
+qui table navarm,stat(freq) stat(sum invite) stat(mean invite)
+collect label dim navarm "Navigator arm", modify
+collect label levels navarm 0 "No Navigator" 1 "Navigator"
+collect label levels result frequency "Freq." ///
+    frequency      "Elgible relatives(N)" ///
+    mean   "Invited(proportion)" ///
+    total         "Tested(N)" ///
+    , modify
+collect style cell result[mean], nformat(%5.2f)
+collect preview
+```
