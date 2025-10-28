@@ -43,9 +43,11 @@ type sub/create_vars.do
 
 
 
-## Assessment of family communication scale
+## Assessment of family communication scale {#sec-fam-comm-scale}
 
-### Scale items
+### Supplemental Table 2
+
+Scale items
 
 **Supplemental Table 2. Assessment of Family Communication Scale items
 and attributes (Score created from 20 5-point Likert items. Range 1-5.
@@ -114,6 +116,7 @@ qui hist i2scale_unstd if id==1,freq ytitle(Number of families) ///
 qui graph export img/fam_comm.png,replace
 ```
 
-#### Distribution of family communication scale
+### Supplemental Figure 2
+Distribution of family communication scale
 
 ![](img/fam_comm.png)

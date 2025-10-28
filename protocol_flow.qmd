@@ -1,0 +1,8 @@
+---
+title: Protocol study flow
+---
+
+## Figure 2
+
+![](img/protocol_and_study_flow.png)
+

@@ -35,7 +35,9 @@ were given in the main text.
 
 **Supplemental Table 2** lists the enrolled population characteristics
 
-## [Supplemental Table 1 Genes included in the study]{.underline}
+## Supplemental Table 1
+
+__Genes included in the study__
 
 +----------------------------------------------------------------------------------+
 | **Table 1. Pathogenic variants (PV) grouped by cancer susceptibility and         |
@@ -93,7 +95,10 @@ were given in the main text.
 |                         | MRI)                     |                             |
 +-------------------------+--------------------------+-----------------------------+
 
-## Supplemental Table 2. Characteristics of the enrolled patient population.
+## Supplemental Table 2. 
+
+__Characteristics of the enrolled patient population.__
+
 
   ------------------------------------------------------------------------
                                                    **N**       **Column
@@ -185,5 +190,6 @@ PTEN, RAD51C, RAD51D, SMARCA4, STK11, TP53
 \*\*EPCAM, MLH1, MSH2, MSH6, PMS2, APC, AXIN2, BMPR1A, CDKN2A, GREM1,
 MLH3, MSH3, MUTYH, NTHL1, POLD1, POLE, SMAD4  
 \*\*\* Ovary, Endometrial, Other Gynecological
+
 
 ## References

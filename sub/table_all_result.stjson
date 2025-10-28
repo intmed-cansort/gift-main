@@ -3037,6 +3037,14 @@
           {
             "halign": "center"
           }
+        ],
+        [
+          "border_block[column-header]",
+          {
+            "border-bottom": {
+              "pattern": "single"
+            }
+          }
         ]
       ]
     },
@@ -3082,11 +3090,11 @@
       }
     },
     "notes": [
+      "The three outcomes (one primary and two secondary) are shown in the three columns of the table.  In the rows we report the summary of the outcome for each group (the first two rows for each of the two interventions in sequence).  The row labeled difference presents the contrast between the groups as the risk difference.  For the continuous communication outcome, the contrast is presented as a difference in means.",
       "1. The testing and invitation outcomes were assessed at the relative level with relatives clustered within index patients in multilevel models",
       "2. The comfort with communication outcome was assessed for index patients who responded to a survey 6 months after the intervention and results are presented in units of standard deviations of the scale.",
       "3. All effects are predicted outcomes averaged over the distribution of the pre-specified covariates for each regression and also averaged over the family effects for the multilevel models."
-    ],
-    "title": "Table 1. Intervention and control group means and differences for primary and secondary outcomes"
+    ]
   },
   "Tags": {
     "border_block": [

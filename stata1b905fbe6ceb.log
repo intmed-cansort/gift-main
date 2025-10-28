@@ -1,5 +1,0 @@
-
-. run sub/load_data.do
-
-. run sub/create_vars.do
-

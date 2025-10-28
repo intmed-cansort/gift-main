@@ -12,6 +12,9 @@ library(Statamarkdown)
 The pre-specified primary outcome was whether or not each relative received gentic testing via Color.
 
 ## Primary outcome regresssion
+
+A multilevel logistic regression was estimated which included the two intervetion arms as main effects along with three pre-specified covariates.  These included one relative level variable to try to ensure better balance (relative sex) and two cluster level variables to improve efficiency through the use of predictors of variation in the outcome at the cluster level (family size and baseline comfort with communication).(@Hemming_2025_391_e084194) 
+
 ```{stata}
 *| eval: true
 *| code-fold: false
@@ -24,7 +27,8 @@ estat icc
 qui est save sub/main_result,replace
 ```
 
-### Odds ratio for testing 
+### Figure 3
+Odds ratio for testing 
 
 ```{stata}
 *| eval: false
@@ -203,4 +207,5 @@ The navigation intervention arm is not significantly different from 0 and the 95
 
 The residual ICC at 0.41 is larger than what we expected (0.15).  The baseline predictors `female` and number of  `relatives` were strongly predictive of testing while the index patient's baseline comfort with communication scale was not.  We pre-specified the use of these variables in the protocol to improve the efficiency of our estimation as it has been shown that this can improve balance and efficiency in cluster randomized trials(@Hemming_2025_391_e084194).
 
+## References
 

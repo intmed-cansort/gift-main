@@ -11,30 +11,7 @@ library(Statamarkdown)
 
 The second pre-specified secondary outcome was change in comfort with family communication as measured by a scale administered to index patients enrolled in the study at baseline and after the intervention.
 
-## Family communication scale (distribution)
-
-#### Create and describe communication scale
-
-```{stata}
-*| eval: true
-*| code-fold: false
-run sub/load_data.do
-* generate the i2scale without missing values and empirical reversals
-alpha i2_a-i2_t  
-foreach var in i2_h i2_p i2_q i2_r i2_s i2_t {
-    qui recode `var'  (0 = 4) (1 = 3) (2 = 2) (3 = 1) (4 = 0)
-}  // added to create_var-3
-qui alpha i2_a-i2_t,gen(i2scale_unstd) // added to create_var-4
-bysort access_code: gen id=_n // added to create_vars-2
-twoway hist i2scale_unstd if id==1,freq ytitle(Number of families) ///
-	xlab(0 "Not at all" 1 "A little true " 2 "Somewhat true" ///
-	3 "Quite true" 4 "Very true") xscale(range(0 4.3)) ///
-	xtitle("Endorsement of capacity, opportunity and motivation to communicate with family") ///
-    note(" " "The communication scale is measured only for index patients and the histogram gives the scale" "score distribution for those people.")
-qui graph export img/fam_comm.png,replace
-```
-
-![](img/fam_comm.png)
+Communication scale described in @sec-fam-comm-scale
 
 ##  Communication outcome regresssion
 
@@ -53,7 +30,7 @@ qui est save sub/comm_result, replace
 
 There were 262 index patients who responded to the survey.
 
-#### Regression results for family communication
+### Regression results for family communication
 
 ```{stata}
 *| eval: false
@@ -75,6 +52,8 @@ coefplot, drop(_cons) ///
 		"Confidence Intervals.",span)
 qui graph export "img/comm_results.png",replace
 ```
+
+### Supplemental Figure 4
 
 ![](img/comm_results.png)
 

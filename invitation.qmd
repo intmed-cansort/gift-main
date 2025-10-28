@@ -24,7 +24,7 @@ estat icc
 qui est save sub/invite_result, replace
 ```
 
-#### Odds ratio for invitation 
+### Odds ratio for invitation 
 
 
 
@@ -46,6 +46,8 @@ coefplot, drop(_cons) eform xscale(log) ///
 	note("Odds ratios with 95% Confidence Intervals")
 graph export "img/invite_odds.png", replace
 ```
+
+### Supplemental Figure 3
 
 ![](img/invite_odds.png)
 
@@ -78,7 +80,7 @@ collect export sub/table_invite_or.html,replace
 
 It is somewhat counterintuitive that the Navigator intervention has a point effect odds ratio less than one, although the confidence interval considerably overlaps with one so it is most consistent with no difference.
 
-#### Marginal probability of testing for each intervention group
+### Marginal probability of testing for each intervention group
 
 ```{stata}
 *| eval: false
@@ -100,7 +102,7 @@ graph export "img/invite_group_pred.png",replace
 
 ![](img/invite_group_pred.png)
 
-#### Causal effect (risk difference) for each intervention
+### Causal effect (risk difference) for each intervention
 
 ```{stata}
 *| eval: false
@@ -129,7 +131,7 @@ etable ,cstat(_r_b,  nformat(%4.2f)) ///
 
 ![](sub/table_invite.html){width="100%" height="300px"}
 
-#### Table of group outcomes and causal effect combined
+### Table of group outcomes and causal effect combined
 
 ```{stata}
 *| eval: false

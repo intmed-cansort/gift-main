@@ -17,6 +17,7 @@ book:
   chapters:
     - index.qmd
     - study_pop.qmd
+    - protocol_flow.qmd
     - flow_chart.qmd
     - interventions.qmd
     - part: "Data & Descriptives"
@@ -32,7 +33,7 @@ book:
     - part: "Additional analyses"
       chapters:
       - model_checks.qmd
-      - post_hoc.qmd
+      - exploratory.qmd
     - part: "Reviewer requested"
       chapters:
       - num_denom.qmd
@@ -60,5 +61,16 @@ format:
       collapse-level: 3
       pinned: true
 bibliography: references.bib
+crossref:
+  custom:
+    - kind: float
+      key: suppfig
+      reference-prefix: Figure S
+      space-before-numbering: false
+      latex-list-of-description: Supplementary Figure
+    - kind: float
+      key: supptbl
+      reference-prefix: Table S
+      space-before-numbering: false
+      latex-list-of-description: Supplementary Table
 editor: source
-

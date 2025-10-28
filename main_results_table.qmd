@@ -33,15 +33,27 @@ collect layout (rowheader#colname row row1)  (collection#result[coef_ci])
 
 *collect label levels coleq invite "Invited (proportion)" test "Tested (proportion)" i2scale_std_fu "Communication (std.dev.)",modify
 *collect style header result, level(hide)
+collect notes "The three outcomes (one primary and two secondary) are shown in the three columns of the table.  In the rows we report the summary of the outcome for each group (the first two rows for each of the two interventions in sequence).  The row labeled difference presents the contrast between the groups as the risk difference.  For the continuous communication outcome, the contrast is presented as a difference in means."
 collect notes "1. The testing and invitation outcomes were assessed at the relative level with relatives clustered within index patients in multilevel models"
 collect notes "2. The comfort with communication outcome was assessed for index patients who responded to a survey 6 months after the intervention and results are presented in units of standard deviations of the scale."
 collect notes "3. All effects are predicted outcomes averaged over the distribution of the pre-specified covariates for each regression and also averaged over the family effects for the multilevel models."
+collect style cell border_block[column-header], border(bottom)
 collect preview
-collect title "Table 1. Intervention and control group means and differences for primary and secondary outcomes"
+* collect title "Table 1. Intervention and control group means and differences for primary and secondary outcomes"
 qui collect save sub/table_all_result,replace
 qui collect export sub/table_all_result.html,replace
 qui collect export sub/table_all_result.docx,replace
 ```
 
-![](sub/table_all_result.html){width="100%" height="550px"}
+
+
+## Table 1
+Intervention and control group means and differences for primary and secondary outcomes
+
+![](sub/table_all_result.html){width="100%" height="1000px"}
+
+
+
+
+
 

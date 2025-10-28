@@ -2,9 +2,9 @@
 title: Consort Flow Diagram
 ---
 
-## Supplemental Figure 1 Consort Flow Diagram
+## Supplemental Figure 1 
 
-Flow diagram of the progress through the phases of a randomised trial of four groups
+Consort Flow Diagram. Flow diagram of the progress through the phases of a randomised trial of four groups
 
 ![](img/flow_chart.png)
 
