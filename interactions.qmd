@@ -9,9 +9,7 @@ knitr::opts_chunk$set(engine.path=list(stata=stataexe))
 library(Statamarkdown)
 ```
 
-During the review process a reviewer requested that we provide an analysis of the interaction between the two interventions, free vs low cost and navigator vs no navigator and we provide that analysis below. We had not planed to conduct this analysis for reasons outlined first.
-
-However, we also acknowledge that many more recent articles about presenting results of factorial trials do suggest that the interaction analysis should be included even when there is inadequate sample size and the interaction is not anticipated.  This recommendation occurs even when some of the authors acknowledge the exaggeration errors discussed above.  The rationale seems to be that it is more transparent, allows readers to make their own decisions and that appropriate cautions about over-interpretation can be given along side the interaction analysis. 
+During the review process a reviewer requested that we provide an analysis of the interaction between the two interventions, free vs low cost and navigator vs no navigator and we provide that analysis below. We had not planned to conduct this analysis for reasons outlined first. 
 
 ## Rationale for not examining interactions
 
@@ -63,6 +61,8 @@ retrodesign::sim_plot(true_interaction_effect,std_error_interaction)
 ```
 
 We see that under the conditions of low power to detect the interaction, the majority of data samples which might be declared signficicant due to a type 1 error would be severely exaggerated relative to the proposed true effect.
+
+However, more recent articles about how to present results of factorial trials do tend to suggest that the interaction analysis should be included as a sensitivity analysis _even when there is inadequate sample size and the interaction is not anticipated_.  This recommendation occurs even when some of the authors acknowledge the risk of exaggeration errors discussed below.  The rationale seems to be that it is more transparent, allows readers to make their own decisions and that appropriate cautions about over-interpretation can be given along side the interaction analysis.
 
 ## Estimating the interactions of the two interventions
 
