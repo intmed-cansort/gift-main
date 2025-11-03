@@ -13,7 +13,7 @@ The pre-specified primary outcome was whether or not each relative received gent
 
 ## Primary outcome regresssion
 
-A multilevel logistic regression was estimated which included the two intervetion arms as main effects along with three pre-specified covariates.  These included one relative level variable to try to ensure better balance (relative sex) and two cluster level variables to improve efficiency through the use of predictors of variation in the outcome at the cluster level (family size and baseline comfort with communication).(@Hemming_2025_391_e084194) 
+A multilevel logistic regression was estimated which included the two intervention arms as main effects along with three pre-specified covariates. These included one relative level variable to try to ensure better balance (relative sex) and two cluster level variables to improve efficiency through the use of predictors of variation in the outcome at the cluster level (family size and baseline comfort with communication).(@Hemming_2025_391_e084194)
 
 ```{stata}
 *| eval: true
@@ -28,7 +28,8 @@ qui est save sub/main_result,replace
 ```
 
 ### Figure 3
-Odds ratio for testing 
+
+Odds ratio for testing
 
 ```{stata}
 *| eval: false
@@ -73,18 +74,17 @@ collect preview
 collect export sub/table_main_or.html,replace
 ```
 
-:::: {.columns}
-
+:::::: columns
 ::: {.column width="5%"}
-
 :::
+
 ::: {.column width="60%"}
 {{< include "sub/table_main_or.html" >}}
 :::
-::: {.column width="35%"}
 
+::: {.column width="35%"}
 :::
-::::
+::::::
 
 ### Marginal probability of testing for each intervention group
 
@@ -105,8 +105,8 @@ graph export "img/testing_group_pred.png",replace
 
 ![](img/testing_group_pred.png)
 
-
 ### Causal effect of each intervention
+
 ```{stata}
 *| eval: false
 *| code-fold: true
@@ -185,27 +185,24 @@ collect save sub/table_primary_result,replace
 collect export sub/table_primary_result.html,replace
 ```
 
-
-:::: {.columns}
+:::::: columns
 ::: {.column width="20%"}
-
 :::
+
 ::: {.column width="60%"}
 {{< include "sub/table_primary_result.html" >}}
 :::
-::: {.column width="20%"}
-  
-:::
-::::
 
+::: {.column width="20%"}
+:::
+::::::
 
 ## Summary of primary outcome results
 
-The cost arm shows a significant improvement in testing with an odds ratio of 2.5 and a difference in probability of 4% (95% CI 2%,5%) when in the control condition for Navigation and averaged over number of relatives, family communication and gender of the relative.  The estimate of 4% increase is in line with the 3% increase that we hypothesized for our sample size calculation.
+The cost arm shows a significant improvement in testing with an odds ratio of 2.5 and a difference in probability of 4% (95% CI 2%,5%) when in the control condition for Navigation and averaged over number of relatives, family communication and gender of the relative. The estimate of 4% increase is in line with the 3% increase that we hypothesized for our sample size calculation.
 
 The navigation intervention arm is not significantly different from 0 and the 95% confidence interval for the differnce of 0% is -1% to 2%, which does not include the 5% difference we hypothesized for our sample size calculation
 
-The residual ICC at 0.41 is larger than what we expected (0.15).  The baseline predictors `female` and number of  `relatives` were strongly predictive of testing while the index patient's baseline comfort with communication scale was not.  We pre-specified the use of these variables in the protocol to improve the efficiency of our estimation as it has been shown that this can improve balance and efficiency in cluster randomized trials(@Hemming_2025_391_e084194).
+The residual ICC at 0.41 is larger than what we expected (0.15). The baseline predictors `female` and number of `relatives` were strongly predictive of testing while the index patient's baseline comfort with communication scale was not. We pre-specified the use of these variables in the protocol to improve the efficiency of our estimation as it has been shown that this can improve balance and efficiency in cluster randomized trials(@Hemming_2025_391_e084194).
 
 ## References
-
