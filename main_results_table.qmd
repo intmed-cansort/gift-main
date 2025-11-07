@@ -13,7 +13,8 @@ library(Statamarkdown)
 *| eval: true
 *| code-fold: true
 *| output: false
-* combined table
+* combined table formattig code 
+* (all calculations for this table were done in the individual outcome analyses)
 collect clear
 collect layout, clear
 collect use sec1 sub/table_invite_result.stjson
@@ -50,8 +51,11 @@ qui collect export sub/table_all_result.docx,replace
 ## Table 1
 Intervention and control group means and differences for primary and secondary outcomes
 
-![](sub/table_all_result.html){width="100%" height="1000px"}
+Table 1 in the published article (will be provided here after publication)
 
+<!--
+![](sub/table_all_result.html){width="100%" height="1000px"}
+-->
 
 
 

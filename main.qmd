@@ -49,7 +49,11 @@ coefplot, drop(_cons) eform xscale(log) ///
 graph export "img/testing_odds.png",replace
 ```
 
+
+Figure 3 in the published article (will be provided here after publication)
+<!--
 ![](img/testing_odds.png)
+-->
 
 ```{stata}
 *| eval: false
@@ -87,6 +91,8 @@ collect export sub/table_main_or.html,replace
 ::::::
 
 ### Marginal probability of testing for each intervention group
+
+The marginal probabilities shown below and in subsequent results are calculated by averaging over the covariates and the random-intercept distribution effects by integrating out the random effects using adaptive quadrature, as implemented in Stata V19.  For each intervention we do fix the other intervention at the control condition. This results in probabilities and a risk difference for the intervention that would be seen on average for a population of which our data can be thought of as a representative sample.
 
 ```{stata}
 *| eval: false

@@ -4,192 +4,298 @@ title: Study population and sampling
 
 ## Sampling procedure
 
-The GIFT study began with a patient inception cohort survey (PIC Survey)
-from which we determined eligibility for the clinical intervention
-trial. Georgia and California SEER registry leads at Emory University
-and University of Southern California identified an inception cohort of
-eligible patients (via Information Management Services Calverton MD @Katz_2025_25_366)
-aged 18 and older, diagnosed with a broad array of cancers in 2018-2019,
-who linked (via the ongoing Georgia California Genetic Testing Linkage
-Initiative @Katz_2025_25_366) to germline testing, and who were found to have a
-pathogenic variant (PV) in one of 27 cancer susceptibility genes and
-were alive at the time of selection (n=4300). 
+The GIFT study began with a patient inception cohort survey (PIC Survey) from which we determined eligibility for the clinical intervention trial. Georgia and California SEER registry leads at Emory University and University of Southern California identified an inception cohort of eligible patients (via Information Management Services Calverton MD @Katz_2025_25_366) aged 18 and older, diagnosed with a broad array of cancers in 2018-2019, who linked (via the ongoing Georgia California Genetic Testing Linkage Initiative @Katz_2025_25_366) to germline testing, and who were found to have a pathogenic variant (PV) in one of 27 cancer susceptibility genes and were alive at the time of selection (n=4300).
 
-**Supplemental Table 1** lists the genes included in the study, grouped by cancer susceptibility
-and guidelines for prevention and control at the time of selection of
-the patient sample.(@Daly_2021_19_77) The SEER registries provided a third-party
-honest broker, Information Management Services, Inc. (IMS; the honest
-broker for the National Cancer Institute (NCI) Surveillance Program),
-with the de-identified clinical datasets maintained by the registries
-from the Georgia California Genetic Testing Linkage Initiative. IMS
-sampled an inception cohort of patients from this file using both
-clinical and genetic test result data according to the study eligibility
-criteria. IMS "salted" the sample with an additional 5% patients who did
-not link to a test result, which ensured that registry field teams did
-not know whether a given patient was tested or not, nor the result of
-any genetic test. After salting, IMS returned the patient IDs of the
-sampled individuals to the respective registry, with no information
-regarding genetic test status. Inclusion criteria for the Patient
-Inception Cohort (PIC) survey and subsequent invitation to the trial
-were given in the main text.  
+**Supplemental Table 1** lists the genes included in the study, grouped by cancer susceptibility and guidelines for prevention and control at the time of selection of the patient sample.(@Daly_2021_19_77) The SEER registries provided a third-party honest broker, Information Management Services, Inc. (IMS; the honest broker for the National Cancer Institute (NCI) Surveillance Program), with the de-identified clinical datasets maintained by the registries from the Georgia California Genetic Testing Linkage Initiative. IMS sampled an inception cohort of patients from this file using both clinical and genetic test result data according to the study eligibility criteria. IMS "salted" the sample with an additional 5% patients who did not link to a test result, which ensured that registry field teams did not know whether a given patient was tested or not, nor the result of any genetic test. After salting, IMS returned the patient IDs of the sampled individuals to the respective registry, with no information regarding genetic test status. Inclusion criteria for the Patient Inception Cohort (PIC) survey and subsequent invitation to the trial were given in the main text.
 
 **Supplemental Table 2** lists the enrolled population characteristics
 
 ## Supplemental Table 1
 
-__Genes included in the study__
+**Genes included in the study**
 
-+----------------------------------------------------------------------------------+
-| **Table 1. Pathogenic variants (PV) grouped by cancer susceptibility and         |
-| guidelines for prevention and control at the time of selection of the patient    |
-| sample**                                                                         |
-+=========================+==========================+=============================+
-| **Cancer                | **Current guidelines for | **Genes (PV)**              |
-| Susceptibility**        | prevention and control** |                             |
-+-------------------------+--------------------------+-----------------------------+
-| **Breast cancer**       | Annual screening breast  | *ATM*, *BRCA1*, *BRCA2*,    |
-|                         | magnetic resonance       | *CDH1*, *CHEK2*, *PALB2*,   |
-|                         | imaging                  | *PTEN*, *STK11*, *TP53;*    |
-|                         |                          | consider for *BARD1, BRIP1, |
-|                         |                          | RAD51C, RAD51D*             |
-|                         +--------------------------+-----------------------------+
-|                         | Consider risk-reducing   | *BRCA1*, *BRCA2*, *PALB2*,  |
-|                         | mastectomy               | *PTEN*, *STK11*, *TP53*     |
-+-------------------------+--------------------------+-----------------------------+
-| **Colorectal cancer     | Earlier and more         | *APC, BMPR1A, CHEK2,        |
-| and/or other            | frequent (every 1-5      | EPCAM*, *GREM1, MLH1, MSH2, |
-| gastrointestinal        | years) colonoscopy       | MSH6, POLD1, POLE, PTEN,    |
-| cancers (e.g., gastric, | and/or endoscopy         | SMAD4, STK11, TP53*         |
-| esophageal junction)**  |                          |                             |
-|                         +--------------------------+-----------------------------+
-|                         | Risk-reducing colectomy  | *APC*                       |
-|                         +--------------------------+-----------------------------+
-|                         | Risk-reducing            | *CDH1*                      |
-|                         | gastrectomy              |                             |
-+-------------------------+--------------------------+-----------------------------+
-| **Ovarian and/or        | Risk-reducing            | *BRCA1, BRCA2, BRIP1,       |
-| endometrial cancer**    | salpingo-oophorectomy    | EPCAM, MLH1, MSH2, MSH6,    |
-|                         | and/or hysterectomy      | PTEN, RAD51C, RAD51D,       |
-|                         |                          | STK11*                      |
-+-------------------------+--------------------------+-----------------------------+
-| **Prostate cancer**     | Earlier screening with   | *BRCA1, BRCA2;* consider    |
-|                         | annual PSA and clinical  | for *ATM, CHEK2, PALB2,*    |
-|                         | examination              | and others                  |
-+-------------------------+--------------------------+-----------------------------+
-| **Pancreatic cancer**   | Consider annual          | *ATM, BRCA1, BRCA2, CDKN2A, |
-|                         | screening protocols      | EPCAM, MLH1, MSH2, MSH6,    |
-|                         | including endoscopic     | PALB2, STK11, TP53*         |
-|                         | ultrasound and magnetic  |                             |
-|                         | resonance                |                             |
-|                         | cholangiopancreatography |                             |
-+-------------------------+--------------------------+-----------------------------+
-| **Melanoma/other skin   | Annual dermatologic      | *BAP1, BRCA1/2, CDKN2A,     |
-| cancer**                | examination              | CDK4, MITF, PALB2, PTEN,    |
-|                         |                          | TP53, MLH1, MSH2, EPCAM,    |
-|                         |                          | MSH6*                       |
-+-------------------------+--------------------------+-----------------------------+
-| **Other cancer sites**  | Other targeted screening | *PTEN, TP53,* others        |
-| (e.g., renal, thyroid,  | (e.g., thyroid           |                             |
-| sarcoma)                | ultrasound, renal        |                             |
-|                         | ultrasound, whole body   |                             |
-|                         | MRI)                     |                             |
-+-------------------------+--------------------------+-----------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| **Table 1. Pathogenic variants (PV) grouped by cancer susceptibility and guidelines for prevention and control at the time of selection of the patient sample** |                                                                                                                     |                                                                                                                         |
++=================================================================================================================================================================+=====================================================================================================================+=========================================================================================================================+
+| **Cancer Susceptibility**                                                                                                                                       | **Current guidelines for prevention and control**                                                                   | **Genes (PV)**                                                                                                          |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| **Breast cancer**                                                                                                                                               | Annual screening breast magnetic resonance imaging                                                                  | *ATM*, *BRCA1*, *BRCA2*, *CDH1*, *CHEK2*, *PALB2*, *PTEN*, *STK11*, *TP53;* consider for *BARD1, BRIP1, RAD51C, RAD51D* |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| Consider risk-reducing mastectomy                                                                                                                               | *BRCA1*, *BRCA2*, *PALB2*, *PTEN*, *STK11*, *TP53*                                                                  |                                                                                                                         |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| **Colorectal cancer and/or other gastrointestinal cancers (e.g., gastric, esophageal junction)**                                                                | Earlier and more frequent (every 1-5 years) colonoscopy and/or endoscopy                                            | *APC, BMPR1A, CHEK2, EPCAM*, *GREM1, MLH1, MSH2, MSH6, POLD1, POLE, PTEN, SMAD4, STK11, TP53*                           |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| Risk-reducing colectomy                                                                                                                                         | *APC*                                                                                                               |                                                                                                                         |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| Risk-reducing gastrectomy                                                                                                                                       | *CDH1*                                                                                                              |                                                                                                                         |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| **Ovarian and/or endometrial cancer**                                                                                                                           | Risk-reducing salpingo-oophorectomy and/or hysterectomy                                                             | *BRCA1, BRCA2, BRIP1, EPCAM, MLH1, MSH2, MSH6, PTEN, RAD51C, RAD51D, STK11*                                             |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| **Prostate cancer**                                                                                                                                             | Earlier screening with annual PSA and clinical examination                                                          | *BRCA1, BRCA2;* consider for *ATM, CHEK2, PALB2,* and others                                                            |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| **Pancreatic cancer**                                                                                                                                           | Consider annual screening protocols including endoscopic ultrasound and magnetic resonance cholangiopancreatography | *ATM, BRCA1, BRCA2, CDKN2A, EPCAM, MLH1, MSH2, MSH6, PALB2, STK11, TP53*                                                |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| **Melanoma/other skin cancer**                                                                                                                                  | Annual dermatologic examination                                                                                     | *BAP1, BRCA1/2, CDKN2A, CDK4, MITF, PALB2, PTEN, TP53, MLH1, MSH2, EPCAM, MSH6*                                         |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| **Other cancer sites** (e.g., renal, thyroid, sarcoma)                                                                                                          | Other targeted screening (e.g., thyroid ultrasound, renal ultrasound, whole body MRI)                               | *PTEN, TP53,* others                                                                                                    |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 
-## Supplemental Table 2. 
+## Supplemental Table 2.
 
-__Characteristics of the enrolled patient population.__
+**Characteristics of the enrolled patient population.**
 
++-----------------------------------------------------------------------+------------+----------------+
+|                                                                       | **N**      | **Column Pct** |
++:======================================================================+:===========+:===============+
+| **PV Type**                                                           |            |                |
++-----------------------------------------------------------------------+------------+----------------+
+| HBOC\*                                                                | 340        | 82%            |
++-----------------------------------------------------------------------+------------+----------------+
+| Lynch/other GI\*\*                                                    | 70         | 17%            |
++-----------------------------------------------------------------------+------------+----------------+
+| Other                                                                 | 4          | 1%             |
++-----------------------------------------------------------------------+------------+----------------+
+| **Cancer Site**                                                       |            |                |
++-----------------------------------------------------------------------+------------+----------------+
+| Breast                                                                | 271        | 65%            |
++-----------------------------------------------------------------------+------------+----------------+
+| Colorectal                                                            | 17         | 4%             |
++-----------------------------------------------------------------------+------------+----------------+
+| Prostate                                                              | 17         | 4%             |
++-----------------------------------------------------------------------+------------+----------------+
+| Other Female\*\*\*                                                    | 11         | 3%             |
++-----------------------------------------------------------------------+------------+----------------+
+| Other                                                                 | 98         | 24%            |
++-----------------------------------------------------------------------+------------+----------------+
+| **Sex**                                                               |            |                |
++-----------------------------------------------------------------------+------------+----------------+
+| Male                                                                  | 44         | 11%            |
++-----------------------------------------------------------------------+------------+----------------+
+| Female                                                                | 369        | 89%            |
++-----------------------------------------------------------------------+------------+----------------+
+| **Race/Ethnicity**                                                    |            |                |
++-----------------------------------------------------------------------+------------+----------------+
+| NH White                                                              | 276        | 67%            |
++-----------------------------------------------------------------------+------------+----------------+
+| Black                                                                 | 44         | 11%            |
++-----------------------------------------------------------------------+------------+----------------+
+| Asian                                                                 | 29         | 7%             |
++-----------------------------------------------------------------------+------------+----------------+
+| Hispanic                                                              | 62         | 15%            |
++-----------------------------------------------------------------------+------------+----------------+
+| Other                                                                 | 2          | 0%             |
++-----------------------------------------------------------------------+------------+----------------+
+| **Poverty**                                                           |            |                |
++-----------------------------------------------------------------------+------------+----------------+
+| \<10% poverty                                                         | 314        | 76%            |
++-----------------------------------------------------------------------+------------+----------------+
+| 10%-19% poverty                                                       | 73         | 18%            |
++-----------------------------------------------------------------------+------------+----------------+
+| 20%+ poverty                                                          | 26         | 6%             |
++-----------------------------------------------------------------------+------------+----------------+
+| **Family Size**                                                       |            |                |
++-----------------------------------------------------------------------+------------+----------------+
+| 0-3                                                                   | 138        | 33%            |
++-----------------------------------------------------------------------+------------+----------------+
+| 4-6                                                                   | 192        | 46%            |
++-----------------------------------------------------------------------+------------+----------------+
+| 7+                                                                    | 83         | 20%            |
++-----------------------------------------------------------------------+------------+----------------+
+| **Age**                                                               |            |                |
++-----------------------------------------------------------------------+------------+----------------+
+| 19-45                                                                 | 141        | 34%            |
++-----------------------------------------------------------------------+------------+----------------+
+| 46-55                                                                 | 125        | 30%            |
++-----------------------------------------------------------------------+------------+----------------+
+| 56-65                                                                 | 95         | 23%            |
++-----------------------------------------------------------------------+------------+----------------+
+| \>65                                                                  | 52         | 13%            |
++-----------------------------------------------------------------------+------------+----------------+
+| **Education**                                                         |            |                |
++-----------------------------------------------------------------------+------------+----------------+
+| High school or less                                                   | 38         | 9%             |
++-----------------------------------------------------------------------+------------+----------------+
+| Some college                                                          | 110        | 27%            |
++-----------------------------------------------------------------------+------------+----------------+
+| College graduate                                                      | 128        | 32%            |
++-----------------------------------------------------------------------+------------+----------------+
+| Graduate degree                                                       | 129        | 32%            |
++-----------------------------------------------------------------------+------------+----------------+
+| **Proportion of First Degree Relatives Told About Test Results (%)**  | 88%        |                |
++-----------------------------------------------------------------------+------------+----------------+
+| **Proportion of Second Degree Relatives Told About Test Results (%)** | 42%        |                |
++-----------------------------------------------------------------------+------------+----------------+
 
-  ------------------------------------------------------------------------
-                                                   **N**       **Column
-                                                               Pct**
-  ------------------------------------------------ ----------- -----------
-  **PV Type**                                                   
-
-  HBOC\*                                           340         82%
-
-  Lynch/other GI\*\*                               70          17%
-
-  Other                                            4           1%
-
-  **Cancer Site**                                               
-
-  Breast                                           271         65%
-
-  Colorectal                                       17          4%
-
-  Prostate                                         17          4%
-
-  Other Female\*\*\*                               11          3%
-
-  Other                                            98          24%
-
-  **Sex**                                                       
-
-  Male                                             44          11%
-
-  Female                                           369         89%
-
-  **Race/Ethnicity**                                            
-
-  NH White                                         276         67%
-
-  Black                                            44          11%
-
-  Asian                                            29          7%
-
-  Hispanic                                         62          15%
-
-  Other                                            2           0%
-
-  **Poverty**                                                   
-
-  \<10% poverty                                    314         76%
-
-  10%-19% poverty                                  73          18%
-
-  20%+ poverty                                     26          6%
-
-  **Family Size**                                               
-
-  0-3                                              138         33%
-
-  4-6                                              192         46%
-
-  7+                                               83          20%
-
-  **Age**                                                       
-
-  19-45                                            141         34%
-
-  46-55                                            125         30%
-
-  56-65                                            95          23%
-
-  \>65                                             52          13%
-
-  **Education**                                                 
-
-  High school or less                              38          9%
-
-  Some college                                     110         27%
-
-  College graduate                                 128         32%
-
-  Graduate degree                                  129         32%
-
-  **Proportion of First Degree Relatives Told      88%         
-  About Test Results (%)**                                     
-
-  **Proportion of Second Degree Relatives Told     42%         
-  About Test Results (%)**                                     
-  ------------------------------------------------------------------------
-
-\*BRCA1, BRCA2, ATM, BARD1, BRIP1, CDH1, CHEK2, DICER1, NF1, PALB2,
-PTEN, RAD51C, RAD51D, SMARCA4, STK11, TP53  
-\*\*EPCAM, MLH1, MSH2, MSH6, PMS2, APC, AXIN2, BMPR1A, CDKN2A, GREM1,
-MLH3, MSH3, MUTYH, NTHL1, POLD1, POLE, SMAD4  
+\*BRCA1, BRCA2, ATM, BARD1, BRIP1, CDH1, CHEK2, DICER1, NF1, PALB2, PTEN, RAD51C, RAD51D, SMARCA4, STK11, TP53\
+\*\*EPCAM, MLH1, MSH2, MSH6, PMS2, APC, AXIN2, BMPR1A, CDKN2A, GREM1, MLH3, MSH3, MUTYH, NTHL1, POLD1, POLE, SMAD4\
 \*\*\* Ovary, Endometrial, Other Gynecological
 
+## Supplemental Table 3
+
+[**Supplemental Table 3. Relative Engagement with the Intervention by Arm**]{.underline}
+
+<table>
+<tbody>
+<tr>
+<td><p>  </p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><p>   </p></td>
+<td></td>
+<td><p>   </p></td>
+<td><p>   </p>
+<p><strong>Arm 1</strong><br />
+    ($0 Cost; No Navigator)</p>
+<p>   </p></td>
+<td><p>   </p></td>
+<td><p>   </p>
+<p><strong>Arm 2</strong><br />
+    ($50 Cost; No Navigator)</p>
+<p>   </p></td>
+<td><p>   </p></td>
+<td><p>   </p>
+<p><strong>Arm 3</strong><br />
+    ($0; Navigator)</p>
+<p>   </p></td>
+<td><p>   </p></td>
+<td><p>   </p>
+<p><strong>Arm 4</strong><br />
+    ($50 Cost; Navigator)</p>
+<p>   </p></td>
+<td><p>  </p></td>
+</tr>
+<tr>
+<td><p>  </p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><p>   </p></td>
+<td><p>   </p>
+<p>Eligible   Relatives</p>
+<p>   </p></td>
+<td><p>   </p></td>
+<td><p>   </p>
+<p>1,157</p>
+<p>   </p></td>
+<td><p>   </p></td>
+<td><p>   </p>
+<p>1,295</p>
+<p>   </p></td>
+<td><p>   </p></td>
+<td><p>   </p>
+<p>1,298</p>
+<p>   </p></td>
+<td><p>   </p></td>
+<td><p>   </p>
+<p>1,196</p>
+<p>   </p></td>
+<td><p>  </p></td>
+</tr>
+<tr>
+<td><p>  </p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><p>   </p></td>
+<td><p>   </p>
+<p>Relatives   Invited</p>
+<p>   </p></td>
+<td><p>   </p></td>
+<td><p>   </p>
+<p>229 (19.8%)</p>
+<p>   </p></td>
+<td><p>   </p></td>
+<td><p>   </p>
+<p>281 (21.7%)</p>
+<p>   </p></td>
+<td><p>   </p></td>
+<td><p>   </p>
+<p>272 (21.0%)</p>
+<p>   </p></td>
+<td><p>   </p></td>
+<td><p>   </p>
+<p>166 (13.9%)</p>
+<p>   </p></td>
+<td><p>  </p></td>
+</tr>
+<tr>
+<td><p>  </p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><p>   </p></td>
+<td><p>   </p>
+<p>Relatives   Enrolled</p>
+<p>   </p></td>
+<td><p>   </p></td>
+<td><p>   </p>
+<p>77 (6.7%)</p>
+<p>   </p></td>
+<td><p>   </p></td>
+<td><p>   </p>
+<p>56 (4.3%)</p>
+<p>   </p></td>
+<td><p>   </p></td>
+<td><p>   </p>
+<p>120 (9.2%)</p>
+<p>   </p></td>
+<td><p>   </p></td>
+<td><p>   </p>
+<p>50 (4.2%)</p>
+<p>   </p></td>
+<td><p>  </p></td>
+</tr>
+<tr>
+<td><p> </p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 ## References

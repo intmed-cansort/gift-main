@@ -411,7 +411,9 @@ Residual intraclass correlation
 <span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="st">graph export "</span>img/testing_odds.png<span class="st">",replace</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p><img src="img/testing_odds.png" class="img-fluid"></p>
+<p>Figure 3 in the published article (will be provided here after publication) <!--
+![](img/testing_odds.png)
+--></p>
 <div class="cell">
 <details class="code-fold">
 <summary>code</summary>
@@ -815,6 +817,7 @@ table {
 </section>
 <section id="marginal-probability-of-testing-for-each-intervention-group" class="level3" data-number="8.1.2">
 <h3 data-number="8.1.2" class="anchored" data-anchor-id="marginal-probability-of-testing-for-each-intervention-group"><span class="header-section-number">8.1.2</span> Marginal probability of testing for each intervention group</h3>
+<p>The marginal probabilities shown below and in subsequent results are calculated by averaging over the covariates and the random-intercept distribution effects by integrating out the random effects using adaptive quadrature, as implemented in Stata V19. For each intervention we do fix the other intervention at the control condition. This results in probabilities and a risk difference for the intervention that would be seen on average for a population of which our data can be thought of as a representative sample.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>code</summary>
