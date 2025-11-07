@@ -379,7 +379,7 @@ div.csl-indent {
 <h4 class="anchored" data-anchor-id="true-interaction-effect-size-was-anticipated-to-be-small-during-trial-design">True interaction effect size was anticipated to be small during trial design</h4>
 <ol type="1">
 <li>We did not anticipate any synergism between the two interactions which would result in an effect size close to 0.</li>
-<li>Factorial designs are often employed for the increased efficiency that occurs in the absence of interactions between factors and this is often justified by invoking the “hierarchical ordering principle” which says that lower order effects (such as main effects) tend to be more important than higher order effects. There are both theoretical and empirical justifications for this principle.(<span class="citation" data-cites="Wu_2011">Wu and Hamada (<a href="#ref-Wu_2011" role="doc-biblioref">2011</a>)</span>, <span class="citation" data-cites="Li_2006_11_32">Li, Sudarsanam, and Frey (<a href="#ref-Li_2006_11_32" role="doc-biblioref">2006</a>)</span>, <span class="citation" data-cites="Montgomery_2013">Montgomery (<a href="#ref-Montgomery_2013" role="doc-biblioref">2013</a>)</span>) This gives rise to a common default in the absence of prior information or strong theory of proposing that interactions effects are about half the magnitude of main effects when designing experiments.</li>
+<li>Factorial designs are often employed for the increased efficiency that occurs in the absence of interactions between factors and this is often justified by invoking the “hierarchical ordering principle” which says that lower order effects (such as main effects) tend to be more important than higher order effects. There are both theoretical and empirical justifications for this principle.(<span class="citation" data-cites="Wu_2011">Wu and Hamada (<a href="#ref-Wu_2011" role="doc-biblioref">2011</a>)</span>, <span class="citation" data-cites="Li_2006_11_32">Li, Sudarsanam, and Frey (<a href="#ref-Li_2006_11_32" role="doc-biblioref">2006</a>)</span>, <span class="citation" data-cites="Montgomery_2013">D. C. Montgomery (<a href="#ref-Montgomery_2013" role="doc-biblioref">2013</a>)</span>) This gives rise to a common default in the absence of prior information or strong theory of proposing that interactions effects are about half the magnitude of main effects when designing experiments.</li>
 </ol>
 </section>
 <section id="interaction-terms-require-16-times-the-sample-size-as-main-effects" class="level4">
@@ -414,7 +414,7 @@ $type_s
 [1] 0.07344817
 
 $type_m
-[1] 4.39925</code></pre>
+[1] 4.448489</code></pre>
 </div>
 </div>
 <p>The design analysis shows the power to detect the interaction is 0.07 and the type M error is 4.4 (based on the observed standard error for the interaction from the interaction analysis below and the upper limit of the likely true effect size). This suggests that if one observed a statistically significant effect it would be on average over four times as large as the true effect. There is a 7% chance that the sign would be in the opposite direction to the true effect.</p>
@@ -433,7 +433,7 @@ $type_m
 </div>
 </div>
 <p>We see that under the conditions of low power to detect the interaction, the majority of data samples which might be declared signficicant due to a type 1 error would be severely exaggerated relative to the proposed true effect.</p>
-<p>However, more recent articles about how to present results of factorial trials do tend to suggest that the interaction analysis should be included as a sensitivity analysis <em>even when there is inadequate sample size and the interaction is not anticipated</em>. This recommendation occurs even when some of the authors acknowledge the risk of exaggeration errors discussed below. The rationale seems to be that it is more transparent, allows readers to make their own decisions and that appropriate cautions about over-interpretation can be given along side the interaction analysis.</p>
+<p>However, more recent articles about how to present results of factorial trials do tend to suggest that the interaction analysis should be included as a sensitivity analysis <em>even when there is inadequate sample size and the interaction is not anticipated</em> <span class="citation" data-cites="Kahan_2023_330_2106 Kahan_2022_41_4299 Ciolino_2025_333_532 Montgomery_2003_3_26 Muralidharan_2019">(<a href="#ref-Kahan_2023_330_2106" role="doc-biblioref">Kahan et al. 2023</a>; <a href="#ref-Kahan_2022_41_4299" role="doc-biblioref">Kahan et al. 2022</a>; <a href="#ref-Ciolino_2025_333_532" role="doc-biblioref">Ciolino, Scholtens, and Bonner 2025</a>; <a href="#ref-Montgomery_2003_3_26" role="doc-biblioref">A. A. Montgomery, Peters, and Little 2003</a>; <a href="#ref-Muralidharan_2019" role="doc-biblioref">Muralidharan, Romero, and Wüthrich 2019</a>)</span>. This recommendation occurs even when some of the authors acknowledge the lack of power <span class="citation" data-cites="Kahan_2022_41_4299">(<a href="#ref-Kahan_2022_41_4299" role="doc-biblioref">Kahan et al. 2022</a>)</span> and risk of exaggeration errors discussed above<span class="citation" data-cites="Muralidharan_2019">(<a href="#ref-Muralidharan_2019" role="doc-biblioref">Muralidharan, Romero, and Wüthrich 2019</a>)</span>. The rationale seems to be that it is more transparent, allows readers to make their own decisions and that appropriate cautions about over-interpretation can be given along side the interaction analysis.</p>
 </section>
 </section>
 </section>
@@ -590,8 +590,17 @@ Prob &gt; chi2 = 0.0196</code></pre>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Ciolino_2025_333_532" class="csl-entry" role="listitem">
+Ciolino, Jody D., Denise M. Scholtens, and Lauren B. Bonner. 2025. <span>“Factorial <span>Clinical Trial Designs</span>.”</span> <em>JAMA</em> 333 (6): 532–33. <a href="https://doi.org/10.1001/jama.2024.25374">https://doi.org/10.1001/jama.2024.25374</a>.
+</div>
 <div id="ref-Gelman_2014_9_641" class="csl-entry" role="listitem">
 Gelman, Andrew, and John Carlin. 2014. <span>“Beyond <span>Power Calculations Assessing Type S</span> (<span>Sign</span>) and <span>Type M</span> (<span>Magnitude</span>) <span>Errors</span>.”</span> <em>Perspectives on Psychological Science</em> 9 (6): 641–51. <a href="https://doi.org/10.1177/1745691614551642">https://doi.org/10.1177/1745691614551642</a>.
+</div>
+<div id="ref-Kahan_2023_330_2106" class="csl-entry" role="listitem">
+Kahan, Brennan C., Sophie S. Hall, Elaine M. Beller, Megan Birchenall, An-Wen Chan, Diana Elbourne, Paul Little, et al. 2023. <span>“Reporting of <span>Factorial Randomized Trials</span>: <span>Extension</span> of the <span>CONSORT</span> 2010 <span>Statement</span>.”</span> <em>JAMA</em> 330 (21): 2106–14. <a href="https://doi.org/10.1001/jama.2023.19793">https://doi.org/10.1001/jama.2023.19793</a>.
+</div>
+<div id="ref-Kahan_2022_41_4299" class="csl-entry" role="listitem">
+Kahan, Brennan C., Tim P. Morris, Beatriz Goulão, and James Carpenter. 2022. <span>“Estimands for Factorial Trials.”</span> <em>Statistics in Medicine</em> 41 (22): 4299–4310. <a href="https://doi.org/10.1002/sim.9510">https://doi.org/10.1002/sim.9510</a>.
 </div>
 <div id="ref-Katz_2025_25_366" class="csl-entry" role="listitem">
 Katz, Steven J., Paul Abrahamse, Tim P. Hofer, Rebecca R. Courser, Rachel Hodan, Rachel S. Tocco, Sonia Rios-Ventura, et al. 2025. <span>“The <span>Genetic Information</span> and <span>Family Testing</span> (<span>GIFT</span>) Study: Trial Design and Protocol.”</span> <em>BMC Cancer</em> 25 (1): 366. <a href="https://doi.org/10.1186/s12885-025-13744-6">https://doi.org/10.1186/s12885-025-13744-6</a>.
@@ -599,8 +608,14 @@ Katz, Steven J., Paul Abrahamse, Tim P. Hofer, Rebecca R. Courser, Rachel Hodan,
 <div id="ref-Li_2006_11_32" class="csl-entry" role="listitem">
 Li, Xiang, Nandan Sudarsanam, and Daniel D. Frey. 2006. <span>“Regularities in Data from Factorial Experiments.”</span> <em>Complexity</em> 11 (5): 32–45. <a href="https://doi.org/10.1002/cplx.20123">https://doi.org/10.1002/cplx.20123</a>.
 </div>
+<div id="ref-Montgomery_2003_3_26" class="csl-entry" role="listitem">
+Montgomery, Alan A., Tim J. Peters, and Paul Little. 2003. <span>“Design, Analysis and Presentation of Factorial Randomised Controlled Trials.”</span> <em>BMC Medical Research Methodology</em> 3 (November): 26. <a href="https://doi.org/10.1186/1471-2288-3-26">https://doi.org/10.1186/1471-2288-3-26</a>.
+</div>
 <div id="ref-Montgomery_2013" class="csl-entry" role="listitem">
 Montgomery, Douglas C., ed. 2013. <em>Design and Analysis of Experiments</em>. Eighth edition. Hoboken, NJ: John Wiley &amp; Sons, Inc.
+</div>
+<div id="ref-Muralidharan_2019" class="csl-entry" role="listitem">
+Muralidharan, Karthik, Mauricio Romero, and Kaspar Wüthrich. 2019. <span>“Factorial <span>Designs</span>, <span>Model Selection</span>, and (<span>Incorrect</span>) <span>Inference</span> in <span>Randomized Experiments</span>.”</span> Working {{Paper}} 26562. Working <span>Paper Series</span>. National Bureau of Economic Research. <a href="https://doi.org/10.3386/w26562">https://doi.org/10.3386/w26562</a>.
 </div>
 <div id="ref-vanZwet_2021_40_6107" class="csl-entry" role="listitem">
 van Zwet, Erik, Simon Schwab, and Stephen Senn. 2021. <span>“The Statistical Properties of <span>RCTs</span> and a Proposal for Shrinkage.”</span> <em>Statistics in Medicine</em> 40 (27): 6107–17. <a href="https://doi.org/10.1002/sim.9173">https://doi.org/10.1002/sim.9173</a>.
