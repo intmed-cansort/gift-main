@@ -39,4 +39,7 @@ abstract: >-
 license: CC-BY-4.0
 commit: Initial
 version: '1.00'
+identifiers:
+  - type: doi
+    value:10.5281/zenodo.19056292
 date-released: '2026-03-16'
