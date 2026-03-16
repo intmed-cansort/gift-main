@@ -19,7 +19,7 @@ book:
   search: true
   cover-image: img/gift_logo.png
   repo-url: https://github.com/intmed-cansort/gift-main
-  site-url: https://github.com/intmed-cansort/gift-main
+  site-url: https://intmed-cansort.github.io/gift-main/
   repo-actions: [source]
   sidebar:
     collapse-level: 2
