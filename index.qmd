@@ -1,6 +1,6 @@
 # Front Matter
 
-## Supplement to main results paper.
+## GIFT trial open science supplement
 
 This site provides all analyses done in producing the the Gift Study main results paper, both those presented in the paper and all other analyses done as part of the development of the published material including model checks, exploratory analyses and reviewer requested analyses. In addition the statistical code used in producing tables, figures and all primary and supplementary analyses is made available.
 
